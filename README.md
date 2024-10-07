@@ -1,6 +1,6 @@
 # Guide pour récupérer et exécuter le code Python
 
-Ce dépôt contient du code écrit en Python. Un environnement virtuel (**venv**) est fourni pour vous faciliter l`installation des dépendances nécessaires.
+Ce dépôt contient du code écrit en Python. Un environnement virtuel (**venv**) est fourni pour vous faciliter l`utilisation de notre solution.
 
 ---
 
@@ -18,7 +18,7 @@ git clone https://github.com/Maxime-VE/II.3502-Architectures-et-Programmation-Di
 
 ### 2. Accéder au répertoire du TP
 
-Une fois le clonage effectué, changer la branche du répertoire pour accéder au bon TP avec la commande :
+Une fois le clonage effectué, changez la branche du répertoire pour accéder au bon TP avec la commande :
 
 ```bash
 git checkout Lab1
