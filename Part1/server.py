@@ -17,6 +17,7 @@ def divide(x,y):
         print("error while using substract function")
 
 def matrixmul(X,Y):
+    result = [[0 for _ in range(len(Y[0]))] for _ in range(len(X))]
     for i in range(len(X)):
         for j in range(len(Y[0])):
             for k in range(len(Y)):
