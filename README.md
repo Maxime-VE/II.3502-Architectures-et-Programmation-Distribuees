@@ -10,7 +10,8 @@ Ce dépôt GitHub est destiné à stocker tous les travaux pratiques (TP) de la 
 ### Liste des TPs :
 
 - `Lab1` : Communication Paradigms. Interprocess communication: Sockets
-- `Lab2` : A venir ...
+- `Lab2` : RMI/RPC
+- `Lab3` : gRPC
   
 ## Comment naviguer entre les branches
 
