@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package calcul;
+
+service CalculService {
+    // add 2 numbers
+    rpc add(numbersReq) returns (numberRes);
+    // sub 2 numbers
+    rpc substract(numbersReq) returns (numberRes);
+    // Add divide 2 numbers
+    rpc divided(numbersReq) returns (numberRes);
+    // multiply 2 numbers
+    rpc multiply(numbersReq) returns (numberRes);
+}
+// Response for the result of operation
+message numberRes {
+    float resultat = 1;
+}
+// Request numbers to do operation
+message numbersReq {
+    int32 number1 = 1;
+    int32 number2 = 2;
+}

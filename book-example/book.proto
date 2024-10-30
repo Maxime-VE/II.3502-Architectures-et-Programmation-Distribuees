@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package book;
+
+service BookService {
+    // Get a single book by ID
+    rpc GetBook(BookRequest) returns (BookResponse);
+    // List all books
+    rpc ListBooks(Empty) returns (BookListResponse);
+    // Add a new book
+    rpc AddBook(NewBookRequest) returns (BookResponse);
+}
+// Request for a single book by ID
+message BookRequest {
+    int32 id = 1;
+}
+// Request to add a new book
+message NewBookRequest {
+    string title = 1;
+    string author = 2;
+}
+// Represents a single book
+message Book {
+    int32 id = 1;
+    string title = 2;
+    string author = 3;
+}
+// Response containing a single book
+message BookResponse {
+    Book book = 1;
+}
+// Empty message
+message Empty {}
+// Response containing a list of books
+message BookListResponse {
+    repeated Book books = 1;
+}
