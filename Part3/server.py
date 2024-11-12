@@ -2,12 +2,25 @@ import threading
 import socket
 
 host = '127.0.0.1' # Localhost
-port = 5555
+available_port = range(5000, 5005)
+port = available_port[0]
+connected = False
 
 # Define the server connection
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind((host, port))
-server.listen()
+while not connected:
+    print(f'Port {port}')
+    try:
+        server.bind((host, port))
+        server.listen()
+        connected = True
+    except socket.error as msg:
+        port = port + 1
+
+    if port == available_port[len(available_port) - 1]:
+        print("No port available")
+        exit()
+
 
 clients = [] # List of clients
 nicknames = [] # Names of clients
