@@ -3,10 +3,10 @@ import socket
 
 # Neickname selection
 nickname = input("Choose a nickname: ")
-
+available_port = [range(5000, 5005)]
 # Set server connection
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('127.0.0.1', 5555))
+client.connect(('127.0.0.1', 5000))
 
 # Manage behavior (receive message / disconnect)
 def receive():
