@@ -1,38 +1,44 @@
-import threading
 import socket
+import pickle
 
-# Neickname selection
+# Client setup
 nickname = input("Choose a nickname: ")
-available_port = [range(5000, 5005)]
-# Set server connection
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(('127.0.0.1', 5000))
 
-# Manage behavior (receive message / disconnect)
 def receive():
+    """ Listen for messages from the server. """
     while True:
         try:
-            message = client.recv(1024).decode('ascii')
-            if message == 'NICKNAME':   # If received code 'NICKNAME' means giving the client's nickname to the server
-                client.send(nickname.encode('ascii'))
+            message = client.recv(1024)
+            if message:
+                data = pickle.loads(message)  # Unpickle the received data
+                print(f"Received from server: {data}")
             else:
-                print(message)
-        except:
-            print("An error occured")
-            client.close()
-            print("You have been disconnected")
+                break
+        except Exception as e:
+            print(f"Error receiving message: {e}")
             break
 
-# Manage to send a message to a server
-def write():
+def send_write_request(value):
+    """ Send a Write request to the server. """
+    write_request = {'type': 'Write', 'data': value}
+    client.send(pickle.dumps(write_request))
+
+# Main loop for client interaction
+def main():
+    # Start receiving data
+    receive()
+
+    # Client main interaction loop
     while True:
-        message = f'{nickname}: {input("")}'
-        client.send(message.encode('ascii'))
+        action = input("Do you want to make a Write request? (y/n): ")
+        if action == 'y':
+            value = int(input("Enter a number (0-100): "))
+            send_write_request(value)
+        else:
+            print("Exiting client.")
+            break
 
-# Start receive Thread
-receive_thread = threading.Thread(target=receive)
-receive_thread.start()
-
-# Start wrting Thread
-write_thread = threading.Thread(target=write)
-write_thread.start()
+if __name__ == "__main__":
+    main()
