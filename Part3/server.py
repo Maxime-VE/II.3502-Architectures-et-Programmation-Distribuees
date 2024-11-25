@@ -1,4 +1,5 @@
 import pickle
+import random
 import socket
 import threading
 import time
@@ -8,12 +9,21 @@ Initialisation of the variables
 """
 host = '127.0.0.1'
 available_port = range(5000, 5005)  # Available ports
+
+game_values = {}
+client_list = {}
+for p in available_port:
+    client_list[p] = 0
+    game_values[p] = 0
+
 port = available_port[0]
 connected = False
 is_leader = False
 leader_connection = None
 leader_alive = True
 in_election = False
+client_socket= None
+
 
 # Server state information
 server_info = {
@@ -23,14 +33,16 @@ server_info = {
     "has_client": False,
     "client_address": None,
     "leader_port": 5000,
-    "leader_host": host
+    "leader_host": host,
 }
 
 
+
 """
-Function that contact all server in the range of available ports and can transmit different request_type and a message
+Function that contact all server in the range of available ports,
+can send different request_type and a message and receive response
 """
-def check_leader(request_type="STATE", message=None):
+def broadcast_qa(request_type="STATE", message=None):
     responses = {}
     request = {"type": request_type, "message": message}
 
@@ -38,28 +50,38 @@ def check_leader(request_type="STATE", message=None):
         if other_port != port:
             try:
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client:
-                    client.settimeout(0.01)  # Set short timeout to make server set up quicker
+                    client.settimeout(0.1)  # Set short timeout to make server set up quicker
                     client.connect((host, other_port))
                     client.sendall(pickle.dumps(request))
-                    data = client.recv(1024)
+                    data = client.recv(16384)
                     response = pickle.loads(data)
                     responses[other_port] = response
             except (socket.error, pickle.PickleError, EOFError) as e:
                 responses[other_port] = f"Error: {e}"
     return responses
 
+"""
+[LEADER ] Function that check every server to update the client list
+"""
+def update_client_list():
+    global client_list
+    responses = broadcast_qa()
+    for resp_port, resp_data in responses.items():
+        if isinstance(resp_data, dict) and resp_data.get("has_client", False):
+            client_list[resp_port] = 1
+        else:
+            client_list[resp_port] = 0
 
 """
 Function that manage all request comming from client or other servers
 and act depending on the request_type.
 """
 def handle_client(client, addr):
-    global in_election, is_leader
+    global in_election, is_leader, client_socket, leader_connection, leader_alive
     try:
         while True:
-            data = client.recv(1024)
+            data = client.recv(4096)
             if not data:
-                print(f"Client {addr} disconnected.")
                 break
 
             # Deserialize the request
@@ -79,6 +101,9 @@ def handle_client(client, addr):
                 server_info["leader_host"] = host
                 is_leader = new_leader_port == port
                 in_election = False
+                if is_leader:
+                    update_client_list()
+                    check_and_start_game()
 
 
             if not in_election:
@@ -88,24 +113,70 @@ def handle_client(client, addr):
                 if request_type == "CLIENT_MESSAGE":
                     server_port = request.get("server_port")
                     message = request.get("message")
-                    print(f"Server {server_port} sent {message}")
+                    broadcast_to_followers(message, server_port)
 
                 if request_type == "CLIENT":
                     if not server_info["has_client"]:
                         client.sendall(pickle.dumps(server_info))
                         server_info["has_client"] = True
                         server_info["client_address"] = addr
+                        client_socket = client
                         print(f"Connected to client {addr}")
+                        if not is_leader:
+                            leader_connection.sendall(pickle.dumps({"type": "GET_CLIENT","server_port" : port}))
+                        else:
+                            client_list[port] = 1
+                            check_and_start_game()
                     else:
                         client.sendall(pickle.dumps({"error": f"Server already has a client"}))
 
                 if request_type == "MESSAGE":
                     message = request.get("content", "")
-                    print(f"{port}: {message}")
+                    # DEBUG ZONE
+                    if message.lower() == "clients":
+                        print(client_list)
+
+                    if message.lower() == "state":
+                        print(server_info)
+
+                    if message.lower() == "in_election":
+                        print(in_election)
+
+                    print(f"{port}[ME] : {message}")
                     response = {"ack": f"Message received: {message}"}
                     if not server_info["is_leader"]:
                         send_message_to_leader(message, addr)
+                    else:
+                        broadcast_to_followers(message, port)
                     client.sendall(pickle.dumps(response))
+
+                if request_type == "LEADER_MESSAGE":
+                    message = request.get("content", "")
+                    server_port = request.get("server_port")
+                    print(f"{server_port}: {message}")
+
+                    if server_info["has_client"] and client_socket:
+                        try:
+                            client_socket.sendall(pickle.dumps({"type": "MESSAGE_FROM_LEADER", "content": f"{server_port} : {message}"}))
+                        except Exception as e:
+                            print(f"Erreur d'envoi au client: {e}")
+
+                if request_type == "CHOOSE_NUMBER":
+                    number_request = {"type": "CHOOSE_NUMBER", "message": "Please choose a number!"}
+                    try:
+                        client_socket.sendall(
+                            pickle.dumps(number_request))
+                    except Exception as e:
+                        print(f"Erreur d'envoi au client: {e}")
+
+                if request_type == "LOSE_CLIENT":
+                    server_port = request.get("server_port")
+                    client_list[server_port] = 0
+
+                if request_type == "GET_CLIENT":
+                    server_port = request.get("server_port")
+                    client_list[server_port] = 1
+                    check_and_start_game()
 
             else:
                 client.sendall(pickle.dumps({"error": f"Unknown request type: {request_type}"}))
@@ -116,8 +187,46 @@ def handle_client(client, addr):
         client.close()
         if server_info["client_address"] == addr:
             server_info["has_client"] = False
+            server_info["has_client"] = False
             server_info["client_address"] = None
+            client_socket = None
             print(f"Closing connection with client {addr}")
+            if not server_info["is_leader"]:
+                leader_connection.sendall(pickle.dumps({"type": "LOSE_CLIENT","server_port" : port}))
+            else:
+                client_list[port] = 0
+
+
+"""
+Function that check the number of online client and start Game if more than 3 
+"""
+def check_and_start_game():
+    connected_clients = sum(client_list.values())
+    print(f"Currently connected clients: {connected_clients}")
+
+    if connected_clients >= 3:
+        print("3 or more clients connected. Starting the game...")
+        start_game()
+
+def start_game():
+    for player_port in available_port:
+        game_values[player_port] = 0
+    selected_player = choose_random_client()
+    print(f"{selected_player} have been selected")
+    if selected_player:
+        print("Continue the game ....")
+    else:
+        print("An error occured. Please get 3 client to start a game.")
+
+
+"""
+Select a player to be the one to start
+"""
+def choose_random_client():
+    connected_ports = [port for port, is_connected in client_list.items() if is_connected == 1]
+    if len(connected_ports) > 0:
+        return random.choice(connected_ports)
+    return None
 
 
 """
@@ -137,7 +246,7 @@ def manage_leader_connection():
         except socket.error as e:
             print(f"Error maintaining leader connection: {e}")
             leader_alive = False
-            time.sleep(3)
+            time.sleep(1)
             initiate_leader_election()
 
 
@@ -151,7 +260,7 @@ def initiate_leader_election():
     in_election = True
 
     # Run leader election logic (choose the first available server with the lowest port)
-    responses = check_leader(request_type="ELECTION")
+    responses = broadcast_qa(request_type="ELECTION")
     potential_leaders = [port]
 
     for resp_port, resp_data in responses.items():
@@ -174,7 +283,7 @@ def initiate_leader_election():
         server_info["leader_host"] = host
         is_leader = False
 
-    check_leader("NEW_LEADER", new_leader)
+    broadcast_qa("NEW_LEADER", new_leader)
 
     in_election = False
 
@@ -200,13 +309,30 @@ def send_message_to_leader(message, addr):
 
 
 """
+[LEADER FUNCTION] Function that send to all follower a message with a request type and a content
+"""
+def broadcast_to_followers(message, incomming_msg_port=None):
+    for follower_port in available_port:
+        if follower_port != incomming_msg_port:  # Avoid communication with source server client
+            try:
+                client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                client_socket.connect((host, follower_port))
+                client_socket.sendall(pickle.dumps({
+                    "type": "LEADER_MESSAGE",
+                    "content": message,
+                    "server_port": incomming_msg_port
+                }))
+            except Exception as e:
+                pass
+
+"""
 Function to accept incoming connection in a new Thread
 """
 def allow_connection(server):
     while True:
         client, addr = server.accept()
         client_ip, client_port = addr
-        print(f"Connected with {client_ip}:{client_port}")
+        # print(f"Connected with {client_ip}:{client_port}") TODO Put it in log file not print
 
         # Start new Thread
         client_thread = threading.Thread(target=handle_client, args=(client, addr))
@@ -234,7 +360,7 @@ while not connected:
 server_info["port"] = port
 
 # Check if there is already a leader
-responses = check_leader()
+responses = broadcast_qa()
 leader_found = False
 for resp_port, resp_data in responses.items():
     if isinstance(resp_data, dict) and resp_data.get("is_leader", False):

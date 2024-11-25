@@ -1,5 +1,6 @@
 import pickle
 import socket
+import threading
 import time
 
 host = '127.0.0.1'
@@ -19,7 +20,6 @@ def check_server_availability():
             client_socket.sendall(pickle.dumps(request))
             data = client_socket.recv(1024)
             response = pickle.loads(data)
-            print(response)
 
             # Check if the server is occupied by another client
             if response.get("has_client", False) or "error" in response:
@@ -27,6 +27,7 @@ def check_server_availability():
                 client_socket.close()
                 continue
 
+            client_socket.settimeout(None)
             return client_socket, port, response
 
         except (socket.error, pickle.PickleError, EOFError) as e:
@@ -34,6 +35,21 @@ def check_server_availability():
             continue
 
     return None, None, None
+
+def receive_messages(client_socket):
+    while True:
+        try:
+            data = client_socket.recv(1024)
+            if not data:
+                print("Server disconnected.")
+                break
+            response = pickle.loads(data)
+            if "content" in response:
+                print(f"\n{response['content']}")
+        except Exception as e:
+            print(f"Error receiving message: {e}")
+            break
+
 
 """
  Function to handle the client interaction with the server
@@ -43,29 +59,26 @@ def connect_to_server():
     if port is None:
         print("No server available. Exiting...")
         return
+
     try:
         print(f"Connected to server on port {port}. Leader status: {server_info['is_leader']}")
 
+        # Check message from server
+        receiver_thread = threading.Thread(target=receive_messages, args=(client_socket,))
+        receiver_thread.daemon = True
+        receiver_thread.start()
+
+        # Send message to server
+        message = input("Enter your message (or 'exit' to disconnect): ")
         while True:
-            message = input("Enter a message to send to the server (or 'exit' to disconnect): ")
             if message.lower() == "exit":
                 print("Disconnecting from the server...")
                 break
 
-            # Send the message to the server
             request = {"type": "MESSAGE", "content": message}
             client_socket.sendall(pickle.dumps(request))
+            message = input()
 
-            # Check response from the server
-            try:
-                data = client_socket.recv(1024)
-                response = pickle.loads(data)
-                if "ack" in response:
-                    print("Received")
-                else:
-                    print(f"Server response: {response}")
-            except socket.timeout:
-                print("No response from server (timeout).")
     except (socket.error, pickle.PickleError, EOFError) as e:
         print(f"Connection error: {e}")
 
