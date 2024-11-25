@@ -1,44 +1,79 @@
-import socket
 import pickle
+import socket
+import time
 
-# Client setup
-nickname = input("Choose a nickname: ")
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('127.0.0.1', 5000))
+host = '127.0.0.1'
+available_port = range(5000, 5005)  # Available ports
 
-def receive():
-    """ Listen for messages from the server. """
-    while True:
+"""
+ Function to check the leader state and server availability
+"""
+def check_server_availability():
+    for port in available_port:
         try:
-            message = client.recv(1024)
-            if message:
-                data = pickle.loads(message)  # Unpickle the received data
-                print(f"Received from server: {data}")
-            else:
+            client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            client_socket.settimeout(0.5)  # Set timeout for the connection attempt
+            client_socket.connect((host, port))
+
+            request = {"type": "CLIENT"}
+            client_socket.sendall(pickle.dumps(request))
+            data = client_socket.recv(1024)
+            response = pickle.loads(data)
+            print(response)
+
+            # Check if the server is occupied by another client
+            if response.get("has_client", False) or "error" in response:
+                print(f"Server on port {port} is currently occupied by another client.")
+                client_socket.close()
+                continue
+
+            return client_socket, port, response
+
+        except (socket.error, pickle.PickleError, EOFError) as e:
+            print(f"Error connecting to port {port}: {e}")
+            continue
+
+    return None, None, None
+
+"""
+ Function to handle the client interaction with the server
+"""
+def connect_to_server():
+    client_socket, port, server_info = check_server_availability()
+    if port is None:
+        print("No server available. Exiting...")
+        return
+    try:
+        print(f"Connected to server on port {port}. Leader status: {server_info['is_leader']}")
+
+        while True:
+            message = input("Enter a message to send to the server (or 'exit' to disconnect): ")
+            if message.lower() == "exit":
+                print("Disconnecting from the server...")
                 break
-        except Exception as e:
-            print(f"Error receiving message: {e}")
-            break
 
-def send_write_request(value):
-    """ Send a Write request to the server. """
-    write_request = {'type': 'Write', 'data': value}
-    client.send(pickle.dumps(write_request))
+            # Send the message to the server
+            request = {"type": "MESSAGE", "content": message}
+            client_socket.sendall(pickle.dumps(request))
 
-# Main loop for client interaction
-def main():
-    # Start receiving data
-    receive()
+            # Check response from the server
+            try:
+                data = client_socket.recv(1024)
+                response = pickle.loads(data)
+                if "ack" in response:
+                    print("Received")
+                else:
+                    print(f"Server response: {response}")
+            except socket.timeout:
+                print("No response from server (timeout).")
+    except (socket.error, pickle.PickleError, EOFError) as e:
+        print(f"Connection error: {e}")
 
-    # Client main interaction loop
-    while True:
-        action = input("Do you want to make a Write request? (y/n): ")
-        if action == 'y':
-            value = int(input("Enter a number (0-100): "))
-            send_write_request(value)
-        else:
-            print("Exiting client.")
-            break
+    finally:
+        client_socket.close()
+        print("Connection closed.")
 
+
+# Main client execution
 if __name__ == "__main__":
-    main()
+    connect_to_server()
