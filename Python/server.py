@@ -321,7 +321,7 @@ def allow_connection(server):
     while True:
         client, addr = server.accept()
         client_ip, client_port = addr
-        # print(f"Connected with {client_ip}:{client_port}") TODO Put it in log file not print
+        # print(f"Connected with {client_ip}:{client_port}") TODO Add this line in log file
 
         # Start new Thread
         client_thread = threading.Thread(target=handle_client, args=(client, addr))
