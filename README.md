@@ -21,7 +21,7 @@ git clone https://github.com/Maxime-VE/II.3502-Architectures-et-Programmation-Di
 Une fois le clonage effectué, changez la branche du répertoire pour accéder au bon TP avec la commande :
 
 ```bash
-git checkout Lab1
+git checkout Lab4
 ```
 ---
 
