@@ -84,7 +84,6 @@ def handle_client(client, addr):
             if not data:
                 break
 
-            # Deserialize the request
             request = pickle.loads(data)
             request_type = request.get("type")
 
@@ -132,16 +131,6 @@ def handle_client(client, addr):
 
                 if request_type == "MESSAGE":
                     message = request.get("content", "")
-                    # DEBUG ZONE
-                    if message.lower() == "clients":
-                        print(client_list)
-
-                    if message.lower() == "state":
-                        print(server_info)
-
-                    if message.lower() == "in_election":
-                        print(in_election)
-
                     print(f"{port}[ME] : {message}")
                     response = {"ack": f"Message received: {message}"}
                     if not server_info["is_leader"]:
