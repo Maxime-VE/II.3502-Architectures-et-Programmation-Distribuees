@@ -21,7 +21,7 @@ git clone https://github.com/Maxime-VE/II.3502-Architectures-et-Programmation-Di
 Une fois le clonage effectué, changez la branche du répertoire pour accéder au bon TP avec la commande :
 
 ```bash
-git checkout Lab4
+git checkout Lab5
 ```
 ---
 
@@ -49,14 +49,19 @@ source venv/bin/activate
 
 ## Lancer le programme
 
-Après avoir activé le venv, vous pouvez exécuter les programme Python (veuillez vous assurer de lancer le server avant le client) :
+Dans un environnement munis de spark et dans le dossier Python du projet, Lancer le serveur Spark avec la commande: 
+```bash
+spark-submit main_spark.py
+```
+Après son lancement, vous pouvez visualiser son état d'avancement directement depuis la page de gestion Spark disponible à l'adresse: 
+```bash
+localhost:4040
+```
+---
+## Fichier de sortie
 
-```bash
-python server.py
-```
-```bash
-python client.py
-```
+Les fichiers générés par le serveur sont disponible dans le dossier  `SparkOutput`au format .csv. Une application externe
+comme `Excel` peut rendre la lecture plus simple
 
 ---
 
