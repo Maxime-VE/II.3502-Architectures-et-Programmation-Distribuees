@@ -9,7 +9,7 @@ columns_list = ["continent", "location", "date", "total_cases", "total_deaths", 
 df_covid_parsed = df_covid[columns_list].copy()
 
 # Display the number of NAN values in each column
-# print(df_covid_parsed.isnull().sum())
+print(df_covid_parsed.isnull().sum())
 
 # Convert the date column to datetime
 df_covid_parsed['date'] = pd.to_datetime(df_covid_parsed['date'])
@@ -36,4 +36,4 @@ output_file = r"..\Results\covid_analysis_results1.csv"
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
 df_covid_parsed.to_csv(output_file, index=False)
 
-print(f"Les résultats ont été sauvegardés dans le fichier : {output_file}")
+print(f"File added to : {output_file}")

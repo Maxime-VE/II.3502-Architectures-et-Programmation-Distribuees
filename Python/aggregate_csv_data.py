@@ -27,4 +27,4 @@ country_aggregates.to_csv(output_file_country, index=False)
 output_file_top_vaccinated = os.path.join(output_folder, "top_10_vaccinated_countries.csv")
 top_vaccinated_countries.to_csv(output_file_top_vaccinated, index=False)
 
-print(f"Fichiers générés :\n - {output_file_continent}\n - {output_file_country}\n - {output_file_top_vaccinated}")
+print(f"File added to : {output_folder}")
