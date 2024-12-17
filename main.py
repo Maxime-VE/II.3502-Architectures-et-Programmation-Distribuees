@@ -14,12 +14,11 @@ logging.basicConfig(
 )
 
 class Node:
-    def __init__(self, left, right, value: str, content, is_copied=False):
+    def __init__(self, left, right, value: str, content):
         self.left: Node = left
         self.right: Node = right
         self.value = value
         self.content = content
-        self.is_copied = is_copied
         logging.info(f"New node added : {self}")
 
 
@@ -38,43 +37,47 @@ class Node:
 class MerkleTree:
     def __init__(self, values):
         logging.info("Creation of a new Merkle Tree")
+        self.values = values
         self.build_tree(values)
 
     def build_tree(self, values):
-
         leaves: List[Node] = [Node(None, None, Node.hash(e), e) for e in values]
-        if len(leaves) % 2 == 1:
-            leaves.append(leaves[-1].copy())
         self.root = self.build_tree_recursive(leaves)
 
     def build_tree_recursive(self, nodes):
+        if len(nodes) == 1:
+            return nodes[0]
+
         if len(nodes) % 2 == 1:
-            nodes.append(nodes[-1].copy())
-        half = len(nodes) // 2
+            nodes.append(None)
 
-        if len(nodes) == 2:
-            return Node(nodes[0], nodes[1], Node.hash(nodes[0].value + nodes[1].value), f" {nodes[0].content} + {nodes[1].content} ")
+        parents = []
+        for i in range(0, len(nodes), 2):
+            left = nodes[i]
+            right = nodes[i + 1]
 
-        left = self.build_tree_recursive(nodes[:half])
-        right = self.build_tree_recursive(nodes[half:])
-        value = Node.hash(left.value + right.value)
-        content = f'{left.content}+{right.content}'
-        return Node(left, right, value, content)
+            if right is None:
+                value = Node.hash(left.value)
+                content = left.content
+            else:
+                value = Node.hash(left.value + right.value)
+                content = f'{left.content} + {right.content}'
+
+            parents.append(Node(left, right, value, content))
+        return self.build_tree_recursive(parents)
 
     def print_tree(self):
         logging.info("Full Merkle Tree scheme asked")
         self.print_tree_recursive(self.root)
 
     def print_tree_recursive(self, node):
-        if node != None:
-            if node.left != None:
+        if node is not None:
+            if node.left is not None or node.right is not None:
                 print("Left: "+str(node.left))
                 print("Right: "+str(node.right))
             else:
                 print("Input")
 
-            if node.is_copied:
-                print('(Padding)')
             print("Value: "+str(node.value))
             print("Content: "+str(node.content))
             print("")
@@ -85,6 +88,18 @@ class MerkleTree:
         logging.info("Root Hash asked for Merkle Tree")
         return self.root.value
 
+    def add_node(self, value: str):
+        logging.info(f"Adding new value to Merkle Tree: {value}")
+        self.values.append(value)
+        self.build_tree(self.values)  # Rebuild the tree
+
+    def add_node_list(self, values):
+        new_nodes = ' | '.join(values)
+        logging.info(f"Adding new value to Merkle Tree: {new_nodes}")
+        for event in values:
+            self.add_node(event)
+        self.build_tree(self.values)  # Rebuild the tree
+
 
 def mixmerkletree(data_into_list):
     print("Inputs: ")
@@ -93,6 +108,13 @@ def mixmerkletree(data_into_list):
     mtree = MerkleTree(element_list)
     print("Root Hash: "+mtree.getRootHash()+"\n")
     mtree.print_tree()
+    mtree.add_node('6')
+    print("Root Hash: "+mtree.getRootHash()+"\n")
+    mtree.add_node('7')
+    print("Root Hash: "+mtree.getRootHash()+"\n")
+    mtree.add_node_list(['8', '9'])
+    print("Root Hash: "+mtree.getRootHash()+"\n")
+
 
 
 filename = "example.txt"
