@@ -1,5 +1,5 @@
 # Python code for implemementing Merkle Tree
-from typing import List
+import math
 import hashlib
 import logging
 
@@ -24,24 +24,21 @@ class Node:
 
     def hash(val: str):
         return f"h({val})"
-        # return hashlib.sha256(val.encode('utf-8')).hexdigest()
+        return hashlib.sha256(val.encode('utf-8')).hexdigest()
 
     def __str__(self):
         return str(self.value)
-
-    # Copy left node to right node (used in case of odd node log entry)
-    def copy(self):
-        return Node(self.left, self.right, self.value, self.content, True)
 
 
 class MerkleTree:
     def __init__(self, values):
         logging.info("Creation of a new Merkle Tree")
         self.values = values
+        self.size = self.compute_size()
         self.build_tree(values)
 
     def build_tree(self, values):
-        leaves: List[Node] = [Node(None, None, Node.hash(e), e) for e in values]
+        leaves = [Node(None, None, Node.hash(e), e) for e in values]
         self.root = self.build_tree_recursive(leaves)
 
     def build_tree_recursive(self, nodes):
@@ -66,6 +63,11 @@ class MerkleTree:
             parents.append(Node(left, right, value, content))
         return self.build_tree_recursive(parents)
 
+    def compute_size(self):
+        if len(self.values) < 1:
+            return 0
+        return math.ceil(math.log2(len(self.values))) + 1
+
     def print_tree(self):
         logging.info("Full Merkle Tree scheme asked")
         self.print_tree_recursive(self.root)
@@ -84,13 +86,14 @@ class MerkleTree:
             self.print_tree_recursive(node.left)
             self.print_tree_recursive(node.right)
 
-    def getRootHash(self):
+    def get_root_value(self):
         logging.info("Root Hash asked for Merkle Tree")
         return self.root.value
 
-    def add_node(self, value: str):
+    def add_node(self, value):
         logging.info(f"Adding new value to Merkle Tree: {value}")
         self.values.append(value)
+        self.size = self.compute_size()
         self.build_tree(self.values)  # Rebuild the tree
 
     def add_node_list(self, values):
@@ -98,22 +101,85 @@ class MerkleTree:
         logging.info(f"Adding new value to Merkle Tree: {new_nodes}")
         for event in values:
             self.add_node(event)
+        self.size = self.compute_size()
         self.build_tree(self.values)  # Rebuild the tree
 
+    def gen_path(self, index):
+        path = []
+        path = self.gen_path_recursive(index, self.root, self.size, path)
+        logging.info(f"Gen Path called for Merkle Tree with index: {index}")
+        return path[::-1] #Reverse the list to have a path from leaves to root
 
-def mixmerkletree(data_into_list):
+    def gen_path_recursive(self, index, node, level, path):
+        if level == 1:
+            return path
+
+        if index <= pow(2, level-2):
+            path.append([node.right.value, "right"])
+            self.gen_path_recursive(index, node.left, level - 1, path)
+        else:
+            path.append([node.left.value, "left"])
+            index = index - pow(2, level-2)
+            self.gen_path_recursive(index, node.right, level - 1, path)
+        return path
+
+    def gen_proof(self, index):
+        proof = []
+        proof = self.gen_proof_recursive(index, self.root, self.size, proof)
+        logging.info(f"Gen Proof called for Merkle Tree: index={index}, n={self.size}")
+        return proof[::-1]
+
+
+    def gen_proof_recursive(self, index, node, level, proof):
+        if level == 1:
+            return proof
+
+        half = pow(2, level - 2)
+        if index <= half:
+            proof.append(node.right.value if level != 2 else node.value)
+            self.gen_proof_recursive(index, node.left, level - 1, proof)
+        else:
+            proof.append(node.left.value if level != 2 else node.value)
+            self.gen_proof_recursive(index - half, node.right, level - 1, proof)
+        return proof
+
+    def is_member(self, event_value, audit_path):
+        event_hash = Node.hash(event_value)
+
+        for sibling_hash, direction in audit_path:
+            if direction == "left":
+                event_hash = Node.hash(sibling_hash + event_hash)
+            elif direction == "right":
+                event_hash = Node.hash(event_hash + sibling_hash)
+            else:
+                raise ValueError(f"Invalid direction in audit path: {direction}")
+
+        result = event_hash == self.get_root_value()
+        logging.info(f"The value \"{event_value}\" is {'' if result else 'not'} the event that match the given audit path")
+        return result
+
+
+def test_merkle_functions(data_into_list):
     print("Inputs: ")
     print(*element_list, sep=" | ")
     print("")
     mtree = MerkleTree(element_list)
-    print("Root Hash: "+mtree.getRootHash()+"\n")
-    mtree.print_tree()
+    print("Root Hash: " + mtree.get_root_value() + "\n")
+    # mtree.print_tree()
+    mtree.add_node('5')
+    print("Root Hash: "+mtree.get_root_value()+"\n")
     mtree.add_node('6')
-    print("Root Hash: "+mtree.getRootHash()+"\n")
-    mtree.add_node('7')
-    print("Root Hash: "+mtree.getRootHash()+"\n")
-    mtree.add_node_list(['8', '9'])
-    print("Root Hash: "+mtree.getRootHash()+"\n")
+    print("Root Hash: "+mtree.get_root_value()+"\n")
+    mtree.add_node_list(['7', '8'])
+    print("Root Hash: "+mtree.get_root_value()+"\n")
+    print(f"Size Tree: {mtree.size}")
+    print(f"Gen path: {mtree.gen_path(4)}")
+    print(f"Gen proof: {mtree.gen_proof(6)}")
+
+    audit_path = mtree.gen_path(5)
+    test_event = "5"
+    result = mtree.is_member(test_event, audit_path)
+    print(f"The value \"{test_event}\" is {'' if result else 'not'} the event that match the given audit path")
 
 
 
@@ -123,4 +189,4 @@ with open(filename, 'r') as fichier:
     lignes = fichier.readlines()
 element_list = [ligne.strip() for ligne in lignes]
 logging.info(f"New file received : {filename}")
-mixmerkletree(element_list)
+test_merkle_functions(element_list)

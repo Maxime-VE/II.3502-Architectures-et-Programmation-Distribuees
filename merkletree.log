@@ -1539,3 +1539,1933 @@
 2024-12-17 16:46 - INFO - New node added : h(h(h(h(9))))
 2024-12-17 16:46 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)))))
 2024-12-17 16:46 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:47 - INFO - New file received : example.txt
+2024-12-18 10:47 - INFO - Creation of a new Merkle Tree
+2024-12-18 10:47 - INFO - New node added : h(1)
+2024-12-18 10:47 - INFO - New node added : h(2)
+2024-12-18 10:47 - INFO - New node added : h(3)
+2024-12-18 10:47 - INFO - New node added : h(4)
+2024-12-18 10:47 - INFO - New node added : h(5)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:47 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:47 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:47 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:47 - INFO - Full Merkle Tree scheme asked
+2024-12-18 10:47 - INFO - Adding new value to Merkle Tree: 6
+2024-12-18 10:47 - INFO - New node added : h(1)
+2024-12-18 10:47 - INFO - New node added : h(2)
+2024-12-18 10:47 - INFO - New node added : h(3)
+2024-12-18 10:47 - INFO - New node added : h(4)
+2024-12-18 10:47 - INFO - New node added : h(5)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:47 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:47 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(6)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(6))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(6)))))
+2024-12-18 10:47 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:47 - INFO - Adding new value to Merkle Tree: 7
+2024-12-18 10:47 - INFO - New node added : h(1)
+2024-12-18 10:47 - INFO - New node added : h(2)
+2024-12-18 10:47 - INFO - New node added : h(3)
+2024-12-18 10:47 - INFO - New node added : h(4)
+2024-12-18 10:47 - INFO - New node added : h(5)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:47 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:47 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:47 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(6)h(7)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(6)h(7))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(6)h(7)))))
+2024-12-18 10:47 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:47 - INFO - Adding new value to Merkle Tree: 8 | 9
+2024-12-18 10:47 - INFO - Adding new value to Merkle Tree: 8
+2024-12-18 10:47 - INFO - New node added : h(1)
+2024-12-18 10:47 - INFO - New node added : h(2)
+2024-12-18 10:47 - INFO - New node added : h(3)
+2024-12-18 10:47 - INFO - New node added : h(4)
+2024-12-18 10:47 - INFO - New node added : h(5)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:47 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:47 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:47 - INFO - New node added : h(h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(6)h(7))h(h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(6)h(7))h(h(8))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(6)h(7))h(h(8)))))
+2024-12-18 10:47 - INFO - Adding new value to Merkle Tree: 9
+2024-12-18 10:47 - INFO - New node added : h(1)
+2024-12-18 10:47 - INFO - New node added : h(2)
+2024-12-18 10:47 - INFO - New node added : h(3)
+2024-12-18 10:47 - INFO - New node added : h(4)
+2024-12-18 10:47 - INFO - New node added : h(5)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(9)
+2024-12-18 10:47 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:47 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:47 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:47 - INFO - New node added : h(h(8)h(9))
+2024-12-18 10:47 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(6)h(7))h(h(8)h(9)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(6)h(7))h(h(8)h(9))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(6)h(7))h(h(8)h(9)))))
+2024-12-18 10:47 - INFO - New node added : h(1)
+2024-12-18 10:47 - INFO - New node added : h(2)
+2024-12-18 10:47 - INFO - New node added : h(3)
+2024-12-18 10:47 - INFO - New node added : h(4)
+2024-12-18 10:47 - INFO - New node added : h(5)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(6)
+2024-12-18 10:47 - INFO - New node added : h(7)
+2024-12-18 10:47 - INFO - New node added : h(8)
+2024-12-18 10:47 - INFO - New node added : h(9)
+2024-12-18 10:47 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:47 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:47 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:47 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:47 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:47 - INFO - New node added : h(h(8)h(9))
+2024-12-18 10:47 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(6)h(7))h(h(8)h(9)))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(6)h(7))h(h(8)h(9))))
+2024-12-18 10:47 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(6)h(7))h(h(8)h(9)))))
+2024-12-18 10:47 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - New file received : example.txt
+2024-12-18 10:48 - INFO - Creation of a new Merkle Tree
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - Full Merkle Tree scheme asked
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 6
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(6))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(6)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(6))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 7
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(6)h(7)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(6)h(7))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 8 | 9
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 8
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(8)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:48 - INFO - New node added : h(h(8))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(6)h(7))h(h(8)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(6)h(7))h(h(8))))
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 9
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(8)
+2024-12-18 10:48 - INFO - New node added : h(9)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:48 - INFO - New node added : h(h(8)h(9))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(6)h(7))h(h(8)h(9)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(6)h(7))h(h(8)h(9))))
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(8)
+2024-12-18 10:48 - INFO - New node added : h(9)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(6)h(7))
+2024-12-18 10:48 - INFO - New node added : h(h(8)h(9))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(6)h(7))h(h(8)h(9)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(6)h(7))h(h(8)h(9))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - New file received : example.txt
+2024-12-18 10:48 - INFO - Creation of a new Merkle Tree
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(5)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(5))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(5)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - Full Merkle Tree scheme asked
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 6
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(5)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 7
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(5)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:48 - INFO - New node added : h(h(7))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(5)h(6))h(h(7)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 8 | 9
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 8
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(5)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(8)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:48 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:48 - INFO - Adding new value to Merkle Tree: 9
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(5)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(8)
+2024-12-18 10:48 - INFO - New node added : h(9)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:48 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:48 - INFO - New node added : h(h(9))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(9)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(9))))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)))))
+2024-12-18 10:48 - INFO - New node added : h(1)
+2024-12-18 10:48 - INFO - New node added : h(2)
+2024-12-18 10:48 - INFO - New node added : h(3)
+2024-12-18 10:48 - INFO - New node added : h(4)
+2024-12-18 10:48 - INFO - New node added : h(5)
+2024-12-18 10:48 - INFO - New node added : h(6)
+2024-12-18 10:48 - INFO - New node added : h(7)
+2024-12-18 10:48 - INFO - New node added : h(8)
+2024-12-18 10:48 - INFO - New node added : h(9)
+2024-12-18 10:48 - INFO - New node added : h(h(1)h(2))
+2024-12-18 10:48 - INFO - New node added : h(h(3)h(4))
+2024-12-18 10:48 - INFO - New node added : h(h(5)h(6))
+2024-12-18 10:48 - INFO - New node added : h(h(7)h(8))
+2024-12-18 10:48 - INFO - New node added : h(h(9))
+2024-12-18 10:48 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(9)))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(9))))
+2024-12-18 10:48 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)))))
+2024-12-18 10:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-18 12:21 - INFO - New file received : example.txt
+2024-12-18 12:21 - INFO - Creation of a new Merkle Tree
+2024-12-18 12:22 - INFO - New file received : example.txt
+2024-12-18 12:22 - INFO - Creation of a new Merkle Tree
+2024-12-18 12:22 - INFO - New node added : h(1)
+2024-12-18 12:22 - INFO - New node added : h(2)
+2024-12-18 12:22 - INFO - New node added : h(3)
+2024-12-18 12:22 - INFO - New file received : example.txt
+2024-12-18 12:22 - INFO - Creation of a new Merkle Tree
+2024-12-18 12:22 - INFO - New node added : h(1)
+2024-12-18 12:22 - INFO - New node added : h(2)
+2024-12-18 12:22 - INFO - New node added : h(3)
+2024-12-18 12:22 - INFO - New node added : h(h(1)h(2))
+2024-12-18 12:22 - INFO - New node added : h(h(3))
+2024-12-19 15:51 - INFO - New file received : example.txt
+2024-12-19 15:51 - INFO - Creation of a new Merkle Tree
+2024-12-19 15:51 - INFO - New node added : h(1)
+2024-12-19 15:51 - INFO - New node added : h(2)
+2024-12-19 15:51 - INFO - New node added : h(3)
+2024-12-19 15:51 - INFO - New node added : h(h(1)h(2))
+2024-12-19 15:51 - INFO - New node added : h(h(3))
+2024-12-19 15:51 - INFO - New node added : h(h(h(1)h(2))h(h(3)))
+2024-12-19 15:51 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 15:51 - INFO - Full Merkle Tree scheme asked
+2024-12-19 15:52 - INFO - New file received : example.txt
+2024-12-19 15:52 - INFO - Creation of a new Merkle Tree
+2024-12-19 15:52 - INFO - New node added : h(1)
+2024-12-19 15:52 - INFO - New node added : h(2)
+2024-12-19 15:52 - INFO - New node added : h(3)
+2024-12-19 15:52 - INFO - New node added : h(h(1)h(2))
+2024-12-19 15:52 - INFO - New node added : h(h(3))
+2024-12-19 15:52 - INFO - New node added : h(h(h(1)h(2))h(h(3)))
+2024-12-19 15:52 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 15:52 - INFO - Full Merkle Tree scheme asked
+2024-12-19 15:52 - INFO - New file received : example.txt
+2024-12-19 15:52 - INFO - Creation of a new Merkle Tree
+2024-12-19 15:52 - INFO - New node added : h(1)
+2024-12-19 15:52 - INFO - New node added : h(2)
+2024-12-19 15:52 - INFO - New node added : h(3)
+2024-12-19 15:52 - INFO - New node added : h(h(1)h(2))
+2024-12-19 15:52 - INFO - New node added : h(h(3))
+2024-12-19 15:52 - INFO - New node added : h(h(h(1)h(2))h(h(3)))
+2024-12-19 15:52 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 15:52 - INFO - Full Merkle Tree scheme asked
+2024-12-19 16:05 - INFO - New file received : example.txt
+2024-12-19 16:05 - INFO - Creation of a new Merkle Tree
+2024-12-19 16:05 - INFO - New node added : h(1)
+2024-12-19 16:05 - INFO - New node added : h(2)
+2024-12-19 16:05 - INFO - New node added : h(3)
+2024-12-19 16:05 - INFO - New node added : h(h(1)h(2))
+2024-12-19 16:05 - INFO - New node added : h(h(3))
+2024-12-19 16:05 - INFO - New node added : h(h(h(1)h(2))h(h(3)))
+2024-12-19 16:05 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 16:05 - INFO - Full Merkle Tree scheme asked
+2024-12-19 16:13 - INFO - New file received : example.txt
+2024-12-19 16:13 - INFO - Creation of a new Merkle Tree
+2024-12-19 16:13 - INFO - New node added : h(1)
+2024-12-19 16:13 - INFO - New node added : h(2)
+2024-12-19 16:13 - INFO - New node added : h(3)
+2024-12-19 16:13 - INFO - New node added : h(h(1)h(2))
+2024-12-19 16:13 - INFO - New node added : h(h(3))
+2024-12-19 16:13 - INFO - New node added : h(h(h(1)h(2))h(h(3)))
+2024-12-19 16:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 16:13 - INFO - Full Merkle Tree scheme asked
+2024-12-19 16:16 - INFO - New file received : example.txt
+2024-12-19 16:16 - INFO - Creation of a new Merkle Tree
+2024-12-19 16:16 - INFO - New node added : h(1)
+2024-12-19 16:16 - INFO - New node added : h(2)
+2024-12-19 16:16 - INFO - New node added : h(3)
+2024-12-19 16:16 - INFO - New node added : h(h(1)h(2))
+2024-12-19 16:16 - INFO - New node added : h(h(3))
+2024-12-19 16:16 - INFO - New node added : h(h(h(1)h(2))h(h(3)))
+2024-12-19 16:16 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 16:16 - INFO - Full Merkle Tree scheme asked
+2024-12-19 16:16 - INFO - New file received : example.txt
+2024-12-19 16:16 - INFO - Creation of a new Merkle Tree
+2024-12-19 16:16 - INFO - New node added : h(1)
+2024-12-19 16:16 - INFO - New node added : h(2)
+2024-12-19 16:16 - INFO - New node added : h(3)
+2024-12-19 16:16 - INFO - New node added : h(4)
+2024-12-19 16:16 - INFO - New node added : h(5)
+2024-12-19 16:16 - INFO - New node added : h(6)
+2024-12-19 16:16 - INFO - New node added : h(h(1)h(2))
+2024-12-19 16:16 - INFO - New node added : h(h(3)h(4))
+2024-12-19 16:16 - INFO - New node added : h(h(5)h(6))
+2024-12-19 16:16 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 16:16 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 16:16 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 16:16 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 16:16 - INFO - Full Merkle Tree scheme asked
+2024-12-19 16:17 - INFO - New file received : example.txt
+2024-12-19 16:17 - INFO - Creation of a new Merkle Tree
+2024-12-19 16:17 - INFO - New node added : h(1)
+2024-12-19 16:17 - INFO - New node added : h(2)
+2024-12-19 16:17 - INFO - New node added : h(3)
+2024-12-19 16:17 - INFO - New node added : h(4)
+2024-12-19 16:17 - INFO - New node added : h(5)
+2024-12-19 16:17 - INFO - New node added : h(6)
+2024-12-19 16:17 - INFO - New node added : h(h(1)h(2))
+2024-12-19 16:17 - INFO - New node added : h(h(3)h(4))
+2024-12-19 16:17 - INFO - New node added : h(h(5)h(6))
+2024-12-19 16:17 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 16:17 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 16:17 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 16:17 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 16:17 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:17 - INFO - New file received : example.txt
+2024-12-19 21:17 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:17 - INFO - New node added : h(1)
+2024-12-19 21:17 - INFO - New node added : h(2)
+2024-12-19 21:17 - INFO - New node added : h(3)
+2024-12-19 21:17 - INFO - New node added : h(4)
+2024-12-19 21:17 - INFO - New node added : h(5)
+2024-12-19 21:17 - INFO - New node added : h(6)
+2024-12-19 21:17 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:17 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:17 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:17 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:17 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:17 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:17 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:17 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:17 - INFO - New file received : example.txt
+2024-12-19 21:17 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:17 - INFO - New node added : h(1)
+2024-12-19 21:17 - INFO - New node added : h(2)
+2024-12-19 21:17 - INFO - New node added : h(3)
+2024-12-19 21:17 - INFO - New node added : h(4)
+2024-12-19 21:17 - INFO - New node added : h(5)
+2024-12-19 21:17 - INFO - New node added : h(6)
+2024-12-19 21:17 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:17 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:17 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:17 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:17 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:17 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:17 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:17 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:18 - INFO - New file received : example.txt
+2024-12-19 21:18 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:18 - INFO - New node added : h(1)
+2024-12-19 21:18 - INFO - New node added : h(2)
+2024-12-19 21:18 - INFO - New node added : h(3)
+2024-12-19 21:18 - INFO - New node added : h(4)
+2024-12-19 21:18 - INFO - New node added : h(5)
+2024-12-19 21:18 - INFO - New node added : h(6)
+2024-12-19 21:18 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:18 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:18 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:18 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:18 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:18 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:18 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:18 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:19 - INFO - New file received : example.txt
+2024-12-19 21:19 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:19 - INFO - New node added : h(1)
+2024-12-19 21:19 - INFO - New node added : h(2)
+2024-12-19 21:19 - INFO - New node added : h(3)
+2024-12-19 21:19 - INFO - New node added : h(4)
+2024-12-19 21:19 - INFO - New node added : h(5)
+2024-12-19 21:19 - INFO - New node added : h(6)
+2024-12-19 21:19 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:19 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:19 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:19 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:19 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:19 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:19 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:19 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:21 - INFO - New file received : example.txt
+2024-12-19 21:21 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:21 - INFO - New node added : h(1)
+2024-12-19 21:21 - INFO - New node added : h(2)
+2024-12-19 21:21 - INFO - New node added : h(3)
+2024-12-19 21:21 - INFO - New node added : h(4)
+2024-12-19 21:21 - INFO - New node added : h(5)
+2024-12-19 21:21 - INFO - New node added : h(6)
+2024-12-19 21:21 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:21 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:21 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:21 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:21 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:21 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:21 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:21 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:21 - INFO - New file received : example.txt
+2024-12-19 21:21 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:21 - INFO - New node added : h(1)
+2024-12-19 21:21 - INFO - New node added : h(2)
+2024-12-19 21:21 - INFO - New node added : h(3)
+2024-12-19 21:21 - INFO - New node added : h(4)
+2024-12-19 21:21 - INFO - New node added : h(5)
+2024-12-19 21:21 - INFO - New node added : h(6)
+2024-12-19 21:21 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:21 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:21 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:21 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:21 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:21 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:21 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:21 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:22 - INFO - New file received : example.txt
+2024-12-19 21:22 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:22 - INFO - New node added : h(1)
+2024-12-19 21:22 - INFO - New node added : h(2)
+2024-12-19 21:22 - INFO - New node added : h(3)
+2024-12-19 21:22 - INFO - New node added : h(4)
+2024-12-19 21:22 - INFO - New node added : h(5)
+2024-12-19 21:22 - INFO - New node added : h(6)
+2024-12-19 21:22 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:22 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:22 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:22 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:22 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:22 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:22 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:22 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:23 - INFO - New file received : example.txt
+2024-12-19 21:23 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:23 - INFO - New node added : h(1)
+2024-12-19 21:23 - INFO - New node added : h(2)
+2024-12-19 21:23 - INFO - New node added : h(3)
+2024-12-19 21:23 - INFO - New node added : h(4)
+2024-12-19 21:23 - INFO - New node added : h(5)
+2024-12-19 21:23 - INFO - New node added : h(6)
+2024-12-19 21:23 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:23 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:23 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:23 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:23 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:23 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:23 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:23 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:23 - INFO - New file received : example.txt
+2024-12-19 21:23 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:23 - INFO - New node added : h(1)
+2024-12-19 21:23 - INFO - New node added : h(2)
+2024-12-19 21:23 - INFO - New node added : h(3)
+2024-12-19 21:23 - INFO - New node added : h(4)
+2024-12-19 21:23 - INFO - New node added : h(5)
+2024-12-19 21:23 - INFO - New node added : h(6)
+2024-12-19 21:23 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:23 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:23 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:23 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:23 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-19 21:23 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-19 21:23 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:23 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:24 - INFO - New file received : example.txt
+2024-12-19 21:24 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:24 - INFO - New node added : h(1)
+2024-12-19 21:24 - INFO - New node added : h(2)
+2024-12-19 21:24 - INFO - New node added : h(3)
+2024-12-19 21:24 - INFO - New node added : h(4)
+2024-12-19 21:24 - INFO - New node added : h(5)
+2024-12-19 21:24 - INFO - New node added : h(6)
+2024-12-19 21:24 - INFO - New node added : h(7)
+2024-12-19 21:24 - INFO - New node added : h(8)
+2024-12-19 21:24 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:24 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:24 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:24 - INFO - New node added : h(h(7)h(8))
+2024-12-19 21:24 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:24 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-19 21:24 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-19 21:24 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:24 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:24 - INFO - New file received : example.txt
+2024-12-19 21:24 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:24 - INFO - New node added : h(1)
+2024-12-19 21:24 - INFO - New node added : h(2)
+2024-12-19 21:24 - INFO - New node added : h(3)
+2024-12-19 21:24 - INFO - New node added : h(4)
+2024-12-19 21:24 - INFO - New node added : h(5)
+2024-12-19 21:24 - INFO - New node added : h(6)
+2024-12-19 21:24 - INFO - New node added : h(7)
+2024-12-19 21:24 - INFO - New node added : h(8)
+2024-12-19 21:24 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:24 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:24 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:24 - INFO - New node added : h(h(7)h(8))
+2024-12-19 21:24 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:24 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-19 21:24 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-19 21:24 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:24 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:25 - INFO - New file received : example.txt
+2024-12-19 21:25 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:25 - INFO - New node added : h(1)
+2024-12-19 21:25 - INFO - New node added : h(2)
+2024-12-19 21:25 - INFO - New node added : h(3)
+2024-12-19 21:25 - INFO - New node added : h(4)
+2024-12-19 21:25 - INFO - New node added : h(5)
+2024-12-19 21:25 - INFO - New node added : h(6)
+2024-12-19 21:25 - INFO - New node added : h(7)
+2024-12-19 21:25 - INFO - New node added : h(8)
+2024-12-19 21:25 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:25 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:25 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:25 - INFO - New node added : h(h(7)h(8))
+2024-12-19 21:25 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:25 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-19 21:25 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-19 21:25 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:25 - INFO - Full Merkle Tree scheme asked
+2024-12-19 21:31 - INFO - New file received : example.txt
+2024-12-19 21:31 - INFO - Creation of a new Merkle Tree
+2024-12-19 21:31 - INFO - New node added : h(1)
+2024-12-19 21:31 - INFO - New node added : h(2)
+2024-12-19 21:31 - INFO - New node added : h(3)
+2024-12-19 21:31 - INFO - New node added : h(4)
+2024-12-19 21:31 - INFO - New node added : h(5)
+2024-12-19 21:31 - INFO - New node added : h(6)
+2024-12-19 21:31 - INFO - New node added : h(7)
+2024-12-19 21:31 - INFO - New node added : h(8)
+2024-12-19 21:31 - INFO - New node added : h(9)
+2024-12-19 21:31 - INFO - New node added : h(10)
+2024-12-19 21:31 - INFO - New node added : h(11)
+2024-12-19 21:31 - INFO - New node added : h(12)
+2024-12-19 21:31 - INFO - New node added : h(13)
+2024-12-19 21:31 - INFO - New node added : h(14)
+2024-12-19 21:31 - INFO - New node added : h(15)
+2024-12-19 21:31 - INFO - New node added : h(16)
+2024-12-19 21:31 - INFO - New node added : h(h(1)h(2))
+2024-12-19 21:31 - INFO - New node added : h(h(3)h(4))
+2024-12-19 21:31 - INFO - New node added : h(h(5)h(6))
+2024-12-19 21:31 - INFO - New node added : h(h(7)h(8))
+2024-12-19 21:31 - INFO - New node added : h(h(9)h(10))
+2024-12-19 21:31 - INFO - New node added : h(h(11)h(12))
+2024-12-19 21:31 - INFO - New node added : h(h(13)h(14))
+2024-12-19 21:31 - INFO - New node added : h(h(15)h(16))
+2024-12-19 21:31 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-19 21:31 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-19 21:31 - INFO - New node added : h(h(h(9)h(10))h(h(11)h(12)))
+2024-12-19 21:31 - INFO - New node added : h(h(h(13)h(14))h(h(15)h(16)))
+2024-12-19 21:31 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-19 21:31 - INFO - New node added : h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16))))
+2024-12-19 21:31 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16)))))
+2024-12-19 21:31 - INFO - Root Hash asked for Merkle Tree
+2024-12-19 21:31 - INFO - Full Merkle Tree scheme asked
+2024-12-22 12:00 - INFO - New file received : example.txt
+2024-12-22 12:00 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:00 - INFO - New node added : h(1)
+2024-12-22 12:00 - INFO - New node added : h(2)
+2024-12-22 12:00 - INFO - New node added : h(3)
+2024-12-22 12:00 - INFO - New node added : h(4)
+2024-12-22 12:00 - INFO - New node added : h(5)
+2024-12-22 12:00 - INFO - New node added : h(6)
+2024-12-22 12:00 - INFO - New node added : h(7)
+2024-12-22 12:00 - INFO - New node added : h(8)
+2024-12-22 12:00 - INFO - New node added : h(9)
+2024-12-22 12:00 - INFO - New node added : h(10)
+2024-12-22 12:00 - INFO - New node added : h(11)
+2024-12-22 12:00 - INFO - New node added : h(12)
+2024-12-22 12:00 - INFO - New node added : h(13)
+2024-12-22 12:00 - INFO - New node added : h(14)
+2024-12-22 12:00 - INFO - New node added : h(15)
+2024-12-22 12:00 - INFO - New node added : h(16)
+2024-12-22 12:00 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:00 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:00 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:00 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:00 - INFO - New node added : h(h(9)h(10))
+2024-12-22 12:00 - INFO - New node added : h(h(11)h(12))
+2024-12-22 12:00 - INFO - New node added : h(h(13)h(14))
+2024-12-22 12:00 - INFO - New node added : h(h(15)h(16))
+2024-12-22 12:00 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:00 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:00 - INFO - New node added : h(h(h(9)h(10))h(h(11)h(12)))
+2024-12-22 12:00 - INFO - New node added : h(h(h(13)h(14))h(h(15)h(16)))
+2024-12-22 12:00 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:00 - INFO - New node added : h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16))))
+2024-12-22 12:00 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16)))))
+2024-12-22 12:00 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:00 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:00 - INFO - Gen Proof called for Merkle Tree: index=6, n=5
+2024-12-22 12:00 - INFO - New file received : example.txt
+2024-12-22 12:00 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:00 - INFO - New node added : h(1)
+2024-12-22 12:00 - INFO - New node added : h(2)
+2024-12-22 12:00 - INFO - New node added : h(3)
+2024-12-22 12:00 - INFO - New node added : h(4)
+2024-12-22 12:00 - INFO - New node added : h(5)
+2024-12-22 12:00 - INFO - New node added : h(6)
+2024-12-22 12:00 - INFO - New node added : h(7)
+2024-12-22 12:00 - INFO - New node added : h(8)
+2024-12-22 12:00 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:00 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:00 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:00 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:00 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:00 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:00 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:00 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:00 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:00 - INFO - Gen Proof called for Merkle Tree: index=6, n=4
+2024-12-22 12:03 - INFO - New file received : example.txt
+2024-12-22 12:03 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:03 - INFO - New node added : h(1)
+2024-12-22 12:03 - INFO - New node added : h(2)
+2024-12-22 12:03 - INFO - New node added : h(3)
+2024-12-22 12:03 - INFO - New node added : h(4)
+2024-12-22 12:03 - INFO - New node added : h(5)
+2024-12-22 12:03 - INFO - New node added : h(6)
+2024-12-22 12:03 - INFO - New node added : h(7)
+2024-12-22 12:03 - INFO - New node added : h(8)
+2024-12-22 12:03 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:03 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:03 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:03 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:03 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:03 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:03 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:03 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:03 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:03 - INFO - Gen Proof called for Merkle Tree: index=6, n=4
+2024-12-22 12:06 - INFO - New file received : example.txt
+2024-12-22 12:06 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:06 - INFO - New node added : h(1)
+2024-12-22 12:06 - INFO - New node added : h(2)
+2024-12-22 12:06 - INFO - New node added : h(3)
+2024-12-22 12:06 - INFO - New node added : h(4)
+2024-12-22 12:06 - INFO - New node added : h(5)
+2024-12-22 12:06 - INFO - New node added : h(6)
+2024-12-22 12:06 - INFO - New node added : h(7)
+2024-12-22 12:06 - INFO - New node added : h(8)
+2024-12-22 12:06 - INFO - New node added : h(9)
+2024-12-22 12:06 - INFO - New node added : h(10)
+2024-12-22 12:06 - INFO - New node added : h(11)
+2024-12-22 12:06 - INFO - New node added : h(12)
+2024-12-22 12:06 - INFO - New node added : h(13)
+2024-12-22 12:06 - INFO - New node added : h(14)
+2024-12-22 12:06 - INFO - New node added : h(15)
+2024-12-22 12:06 - INFO - New node added : h(16)
+2024-12-22 12:06 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:06 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:06 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:06 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:06 - INFO - New node added : h(h(9)h(10))
+2024-12-22 12:06 - INFO - New node added : h(h(11)h(12))
+2024-12-22 12:06 - INFO - New node added : h(h(13)h(14))
+2024-12-22 12:06 - INFO - New node added : h(h(15)h(16))
+2024-12-22 12:06 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(9)h(10))h(h(11)h(12)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(13)h(14))h(h(15)h(16)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:06 - INFO - New node added : h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16))))
+2024-12-22 12:06 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16)))))
+2024-12-22 12:06 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:06 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:06 - INFO - Gen Proof called for Merkle Tree: index=6, n=5
+2024-12-22 12:06 - INFO - New file received : example.txt
+2024-12-22 12:06 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:06 - INFO - New node added : h(1)
+2024-12-22 12:06 - INFO - New node added : h(2)
+2024-12-22 12:06 - INFO - New node added : h(3)
+2024-12-22 12:06 - INFO - New node added : h(4)
+2024-12-22 12:06 - INFO - New node added : h(5)
+2024-12-22 12:06 - INFO - New node added : h(6)
+2024-12-22 12:06 - INFO - New node added : h(7)
+2024-12-22 12:06 - INFO - New node added : h(8)
+2024-12-22 12:06 - INFO - New node added : h(9)
+2024-12-22 12:06 - INFO - New node added : h(10)
+2024-12-22 12:06 - INFO - New node added : h(11)
+2024-12-22 12:06 - INFO - New node added : h(12)
+2024-12-22 12:06 - INFO - New node added : h(13)
+2024-12-22 12:06 - INFO - New node added : h(14)
+2024-12-22 12:06 - INFO - New node added : h(15)
+2024-12-22 12:06 - INFO - New node added : h(16)
+2024-12-22 12:06 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:06 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:06 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:06 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:06 - INFO - New node added : h(h(9)h(10))
+2024-12-22 12:06 - INFO - New node added : h(h(11)h(12))
+2024-12-22 12:06 - INFO - New node added : h(h(13)h(14))
+2024-12-22 12:06 - INFO - New node added : h(h(15)h(16))
+2024-12-22 12:06 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(9)h(10))h(h(11)h(12)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(13)h(14))h(h(15)h(16)))
+2024-12-22 12:06 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:06 - INFO - New node added : h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16))))
+2024-12-22 12:06 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16)))))
+2024-12-22 12:06 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:06 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:06 - INFO - Gen Proof called for Merkle Tree: index=7, n=5
+2024-12-22 12:08 - INFO - New file received : example.txt
+2024-12-22 12:08 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:08 - INFO - New node added : h(1)
+2024-12-22 12:08 - INFO - New node added : h(2)
+2024-12-22 12:08 - INFO - New node added : h(3)
+2024-12-22 12:08 - INFO - New node added : h(4)
+2024-12-22 12:08 - INFO - New node added : h(5)
+2024-12-22 12:08 - INFO - New node added : h(6)
+2024-12-22 12:08 - INFO - New node added : h(7)
+2024-12-22 12:08 - INFO - New node added : h(8)
+2024-12-22 12:08 - INFO - New node added : h(9)
+2024-12-22 12:08 - INFO - New node added : h(10)
+2024-12-22 12:08 - INFO - New node added : h(11)
+2024-12-22 12:08 - INFO - New node added : h(12)
+2024-12-22 12:08 - INFO - New node added : h(13)
+2024-12-22 12:08 - INFO - New node added : h(14)
+2024-12-22 12:08 - INFO - New node added : h(15)
+2024-12-22 12:08 - INFO - New node added : h(16)
+2024-12-22 12:08 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:08 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:08 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:08 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:08 - INFO - New node added : h(h(9)h(10))
+2024-12-22 12:08 - INFO - New node added : h(h(11)h(12))
+2024-12-22 12:08 - INFO - New node added : h(h(13)h(14))
+2024-12-22 12:08 - INFO - New node added : h(h(15)h(16))
+2024-12-22 12:08 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(9)h(10))h(h(11)h(12)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(13)h(14))h(h(15)h(16)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:08 - INFO - New node added : h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16))))
+2024-12-22 12:08 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16)))))
+2024-12-22 12:08 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:08 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:08 - INFO - Gen Proof called for Merkle Tree: index=7, n=5
+2024-12-22 12:08 - INFO - New file received : example.txt
+2024-12-22 12:08 - INFO - Creation of a new Merkle Tree
+2024-12-22 12:08 - INFO - New node added : h(1)
+2024-12-22 12:08 - INFO - New node added : h(2)
+2024-12-22 12:08 - INFO - New node added : h(3)
+2024-12-22 12:08 - INFO - New node added : h(4)
+2024-12-22 12:08 - INFO - New node added : h(5)
+2024-12-22 12:08 - INFO - New node added : h(6)
+2024-12-22 12:08 - INFO - New node added : h(7)
+2024-12-22 12:08 - INFO - New node added : h(8)
+2024-12-22 12:08 - INFO - New node added : h(9)
+2024-12-22 12:08 - INFO - New node added : h(10)
+2024-12-22 12:08 - INFO - New node added : h(11)
+2024-12-22 12:08 - INFO - New node added : h(12)
+2024-12-22 12:08 - INFO - New node added : h(13)
+2024-12-22 12:08 - INFO - New node added : h(14)
+2024-12-22 12:08 - INFO - New node added : h(15)
+2024-12-22 12:08 - INFO - New node added : h(16)
+2024-12-22 12:08 - INFO - New node added : h(h(1)h(2))
+2024-12-22 12:08 - INFO - New node added : h(h(3)h(4))
+2024-12-22 12:08 - INFO - New node added : h(h(5)h(6))
+2024-12-22 12:08 - INFO - New node added : h(h(7)h(8))
+2024-12-22 12:08 - INFO - New node added : h(h(9)h(10))
+2024-12-22 12:08 - INFO - New node added : h(h(11)h(12))
+2024-12-22 12:08 - INFO - New node added : h(h(13)h(14))
+2024-12-22 12:08 - INFO - New node added : h(h(15)h(16))
+2024-12-22 12:08 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(9)h(10))h(h(11)h(12)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(13)h(14))h(h(15)h(16)))
+2024-12-22 12:08 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-22 12:08 - INFO - New node added : h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16))))
+2024-12-22 12:08 - INFO - New node added : h(h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))h(h(h(h(9)h(10))h(h(11)h(12)))h(h(h(13)h(14))h(h(15)h(16)))))
+2024-12-22 12:08 - INFO - Root Hash asked for Merkle Tree
+2024-12-22 12:08 - INFO - Gen Path asked for Merkle Tree with index: 7
+2024-12-22 12:08 - INFO - Gen Proof called for Merkle Tree: index=7, n=5
+2024-12-23 19:02 - INFO - New file received : example.txt
+2024-12-23 19:02 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:02 - INFO - New node added : h(1)
+2024-12-23 19:02 - INFO - New node added : h(2)
+2024-12-23 19:02 - INFO - New node added : h(3)
+2024-12-23 19:02 - INFO - New node added : h(4)
+2024-12-23 19:02 - INFO - New node added : h(5)
+2024-12-23 19:02 - INFO - New node added : h(6)
+2024-12-23 19:02 - INFO - New node added : h(7)
+2024-12-23 19:02 - INFO - New node added : h(8)
+2024-12-23 19:02 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:02 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:02 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:02 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:02 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:02 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:02 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:02 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:02 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:02 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:02 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 19:02 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:04 - INFO - New file received : example.txt
+2024-12-23 19:04 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:04 - INFO - New node added : h(1)
+2024-12-23 19:04 - INFO - New node added : h(2)
+2024-12-23 19:04 - INFO - New node added : h(3)
+2024-12-23 19:04 - INFO - New node added : h(4)
+2024-12-23 19:04 - INFO - New node added : h(5)
+2024-12-23 19:04 - INFO - New node added : h(6)
+2024-12-23 19:04 - INFO - New node added : h(7)
+2024-12-23 19:04 - INFO - New node added : h(8)
+2024-12-23 19:04 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:04 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:04 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:04 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:04 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:04 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:04 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:04 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:04 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:04 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:04 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 19:04 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:06 - INFO - New file received : example.txt
+2024-12-23 19:06 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:06 - INFO - New node added : h(1)
+2024-12-23 19:06 - INFO - New node added : h(2)
+2024-12-23 19:06 - INFO - New node added : h(3)
+2024-12-23 19:06 - INFO - New node added : h(4)
+2024-12-23 19:06 - INFO - New node added : h(5)
+2024-12-23 19:06 - INFO - New node added : h(6)
+2024-12-23 19:06 - INFO - New node added : h(7)
+2024-12-23 19:06 - INFO - New node added : h(8)
+2024-12-23 19:06 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:06 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:06 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:06 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:06 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:06 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:06 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:06 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:06 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:06 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:06 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 19:06 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:09 - INFO - New file received : example.txt
+2024-12-23 19:09 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:09 - INFO - New node added : h(1)
+2024-12-23 19:09 - INFO - New node added : h(2)
+2024-12-23 19:09 - INFO - New node added : h(3)
+2024-12-23 19:09 - INFO - New node added : h(4)
+2024-12-23 19:09 - INFO - New node added : h(5)
+2024-12-23 19:09 - INFO - New node added : h(6)
+2024-12-23 19:09 - INFO - New node added : h(7)
+2024-12-23 19:09 - INFO - New node added : h(8)
+2024-12-23 19:09 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:09 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:09 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:09 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:09 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:09 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:09 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:09 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:09 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:09 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:09 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 19:09 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:10 - INFO - New file received : example.txt
+2024-12-23 19:10 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:10 - INFO - New node added : h(1)
+2024-12-23 19:10 - INFO - New node added : h(2)
+2024-12-23 19:10 - INFO - New node added : h(3)
+2024-12-23 19:10 - INFO - New node added : h(4)
+2024-12-23 19:10 - INFO - New node added : h(5)
+2024-12-23 19:10 - INFO - New node added : h(6)
+2024-12-23 19:10 - INFO - New node added : h(7)
+2024-12-23 19:10 - INFO - New node added : h(8)
+2024-12-23 19:10 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:10 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:10 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:10 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:10 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:10 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:10 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:10 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:10 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:10 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:10 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 19:10 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:10 - INFO - New file received : example.txt
+2024-12-23 19:10 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:10 - INFO - New node added : h(1)
+2024-12-23 19:10 - INFO - New node added : h(2)
+2024-12-23 19:10 - INFO - New node added : h(3)
+2024-12-23 19:10 - INFO - New node added : h(4)
+2024-12-23 19:10 - INFO - New node added : h(5)
+2024-12-23 19:10 - INFO - New node added : h(6)
+2024-12-23 19:10 - INFO - New node added : h(7)
+2024-12-23 19:10 - INFO - New node added : h(8)
+2024-12-23 19:10 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:10 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:10 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:10 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:10 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:10 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:10 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:10 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:10 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:10 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:10 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 19:10 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:11 - INFO - New file received : example.txt
+2024-12-23 19:11 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:11 - INFO - New node added : h(1)
+2024-12-23 19:11 - INFO - New node added : h(2)
+2024-12-23 19:11 - INFO - New node added : h(3)
+2024-12-23 19:11 - INFO - New node added : h(4)
+2024-12-23 19:11 - INFO - New node added : h(5)
+2024-12-23 19:11 - INFO - New node added : h(6)
+2024-12-23 19:11 - INFO - New node added : h(7)
+2024-12-23 19:11 - INFO - New node added : h(8)
+2024-12-23 19:11 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:11 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:11 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:11 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:11 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:11 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:11 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:11 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:11 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:11 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:11 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 19:11 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:11 - INFO - New file received : example.txt
+2024-12-23 19:11 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:11 - INFO - New node added : h(1)
+2024-12-23 19:11 - INFO - New node added : h(2)
+2024-12-23 19:11 - INFO - New node added : h(3)
+2024-12-23 19:11 - INFO - New node added : h(4)
+2024-12-23 19:11 - INFO - New node added : h(5)
+2024-12-23 19:11 - INFO - New node added : h(6)
+2024-12-23 19:11 - INFO - New node added : h(7)
+2024-12-23 19:11 - INFO - New node added : h(8)
+2024-12-23 19:11 - INFO - New node added : h(h(1)h(2))
+2024-12-23 19:11 - INFO - New node added : h(h(3)h(4))
+2024-12-23 19:11 - INFO - New node added : h(h(5)h(6))
+2024-12-23 19:11 - INFO - New node added : h(h(7)h(8))
+2024-12-23 19:11 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 19:11 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 19:11 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 19:11 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:11 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:11 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:11 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 19:11 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:13 - INFO - New file received : example.txt
+2024-12-23 19:13 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:13 - INFO - New node added : cb771c7710be6b61ee814ea45c55180c070281206c309389413819e4fec362ff
+2024-12-23 19:13 - INFO - New node added : 39de5ad191fabaa385f034febdab03dc0d04b1b459d45a7c5d34a89f9c68de49
+2024-12-23 19:13 - INFO - New node added : b4d2c55e5a68fc37f193b0a4a02a1b8399e86bb7317b7e79596dcdc2dcf77fa0
+2024-12-23 19:13 - INFO - New node added : 1c448c4b2ed84959c4ceccd743187c183c31a3b1c8d9f5e5eceda1d05f12dfd5
+2024-12-23 19:13 - INFO - New node added : a3c23115a20c6722ebdc1bf84ed4e0cadccb71e16b0098a36995cfde535d4c2b
+2024-12-23 19:13 - INFO - New node added : f54a0739b7733dc45afda0f0c14189277735893cc22b0afa10e2b35c39469a9c
+2024-12-23 19:13 - INFO - New node added : 7835e7ced77175c2584ccfcff2a14575eb38a702676173a9dcafbafc147c4e1f
+2024-12-23 19:13 - INFO - New node added : cd7af355bf4e00ff1cec93563003a246bf6490018b19501989b3580a8bdeba06
+2024-12-23 19:13 - INFO - New node added : 6cd05e6fa57dc338a5f8e73a0d8d7fb41c5924c4b64dc5be2cc54d9a3b0f8049
+2024-12-23 19:13 - INFO - New node added : ab998cb2cf79178790b6e8f709565f955cbcaf14c6e3b279e7f82423fe67a1d8
+2024-12-23 19:13 - INFO - New node added : 1cddadd4bf1cb44f5554847cde2ace9100e484d83dd66e1abebf68e2a1394a48
+2024-12-23 19:13 - INFO - New node added : 68a8d4bd75f6a2ead3b14426a74d4e95851eedc9d82c500d4111b3567ab41e9a
+2024-12-23 19:13 - INFO - New node added : 4ebf19c91ffba22345924542d338608dfbf98a6d2a0bafb6d40b79592268bed4
+2024-12-23 19:13 - INFO - New node added : 8c26fa10311ff01b563734f996527a1fcf3d8f84cefde2baee83968cba3e8e15
+2024-12-23 19:13 - INFO - New node added : aad51652a8339a3d514e80276635075a19a4baa8033fadba41123bcf83ca7ac2
+2024-12-23 19:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:13 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:13 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:13 - INFO - Gen Path called for Merkle Tree with index: 3
+2024-12-23 19:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:13 - INFO - New file received : example.txt
+2024-12-23 19:13 - INFO - Creation of a new Merkle Tree
+2024-12-23 19:13 - INFO - New node added : h(Lorem ipsum odor amet, consectetuer adipiscing elit.)
+2024-12-23 19:13 - INFO - New node added : h(Aliquet cursus et mattis sociosqu ridiculus placerat.)
+2024-12-23 19:13 - INFO - New node added : h(Morbi efficitur sapien sed habitasse mauris.)
+2024-12-23 19:13 - INFO - New node added : h(Integer integer pharetra aliquam lacinia nullam tempus egestas.)
+2024-12-23 19:13 - INFO - New node added : h(Quam senectus parturient etiam libero, diam inceptos justo.)
+2024-12-23 19:13 - INFO - New node added : h(Suspendisse dapibus egestas posuere lectus venenatis rhoncus.)
+2024-12-23 19:13 - INFO - New node added : h(Placerat est massa purus sollicitudin vel accumsan.)
+2024-12-23 19:13 - INFO - New node added : h(Sed convallis luctus suspendisse tincidunt tempus. Proin lacus mattis purus nisl malesuada.)
+2024-12-23 19:13 - INFO - New node added : h(h(Lorem ipsum odor amet, consectetuer adipiscing elit.)h(Aliquet cursus et mattis sociosqu ridiculus placerat.))
+2024-12-23 19:13 - INFO - New node added : h(h(Morbi efficitur sapien sed habitasse mauris.)h(Integer integer pharetra aliquam lacinia nullam tempus egestas.))
+2024-12-23 19:13 - INFO - New node added : h(h(Quam senectus parturient etiam libero, diam inceptos justo.)h(Suspendisse dapibus egestas posuere lectus venenatis rhoncus.))
+2024-12-23 19:13 - INFO - New node added : h(h(Placerat est massa purus sollicitudin vel accumsan.)h(Sed convallis luctus suspendisse tincidunt tempus. Proin lacus mattis purus nisl malesuada.))
+2024-12-23 19:13 - INFO - New node added : h(h(h(Lorem ipsum odor amet, consectetuer adipiscing elit.)h(Aliquet cursus et mattis sociosqu ridiculus placerat.))h(h(Morbi efficitur sapien sed habitasse mauris.)h(Integer integer pharetra aliquam lacinia nullam tempus egestas.)))
+2024-12-23 19:13 - INFO - New node added : h(h(h(Quam senectus parturient etiam libero, diam inceptos justo.)h(Suspendisse dapibus egestas posuere lectus venenatis rhoncus.))h(h(Placerat est massa purus sollicitudin vel accumsan.)h(Sed convallis luctus suspendisse tincidunt tempus. Proin lacus mattis purus nisl malesuada.)))
+2024-12-23 19:13 - INFO - New node added : h(h(h(h(Lorem ipsum odor amet, consectetuer adipiscing elit.)h(Aliquet cursus et mattis sociosqu ridiculus placerat.))h(h(Morbi efficitur sapien sed habitasse mauris.)h(Integer integer pharetra aliquam lacinia nullam tempus egestas.)))h(h(h(Quam senectus parturient etiam libero, diam inceptos justo.)h(Suspendisse dapibus egestas posuere lectus venenatis rhoncus.))h(h(Placerat est massa purus sollicitudin vel accumsan.)h(Sed convallis luctus suspendisse tincidunt tempus. Proin lacus mattis purus nisl malesuada.))))
+2024-12-23 19:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 19:13 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 19:13 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 19:13 - INFO - Gen Path called for Merkle Tree with index: 3
+2024-12-23 19:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 20:51 - INFO - New file received : example.txt
+2024-12-23 20:51 - INFO - Creation of a new Merkle Tree
+2024-12-23 20:51 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 20:51 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 20:51 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 20:51 - INFO - New node added : h(Integer integer)
+2024-12-23 20:51 - INFO - New node added : h(Quam senectus)
+2024-12-23 20:51 - INFO - New node added : h(Suspendisse)
+2024-12-23 20:51 - INFO - New node added : h(Placerat)
+2024-12-23 20:51 - INFO - New node added : h(Sed convallis)
+2024-12-23 20:51 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 20:51 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 20:51 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 20:51 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 20:51 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 20:51 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 20:51 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 20:51 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 20:51 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 20:51 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 20:51 - INFO - Gen Path called for Merkle Tree with index: 3
+2024-12-23 20:51 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 20:52 - INFO - New file received : example.txt
+2024-12-23 20:52 - INFO - Creation of a new Merkle Tree
+2024-12-23 20:52 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 20:52 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 20:52 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 20:52 - INFO - New node added : h(Integer integer)
+2024-12-23 20:52 - INFO - New node added : h(Quam senectus)
+2024-12-23 20:52 - INFO - New node added : h(Suspendisse)
+2024-12-23 20:52 - INFO - New node added : h(Placerat)
+2024-12-23 20:52 - INFO - New node added : h(Sed convallis)
+2024-12-23 20:52 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 20:52 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 20:52 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 20:52 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 20:52 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 20:52 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 20:52 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 20:52 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 20:52 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 20:52 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 20:52 - INFO - Gen Path called for Merkle Tree with index: 3
+2024-12-23 20:52 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 20:53 - INFO - New file received : example.txt
+2024-12-23 20:53 - INFO - Creation of a new Merkle Tree
+2024-12-23 20:53 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 20:53 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 20:53 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 20:53 - INFO - New node added : h(Integer integer)
+2024-12-23 20:53 - INFO - New node added : h(Quam senectus)
+2024-12-23 20:53 - INFO - New node added : h(Suspendisse)
+2024-12-23 20:53 - INFO - New node added : h(Placerat)
+2024-12-23 20:53 - INFO - New node added : h(Sed convallis)
+2024-12-23 20:53 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 20:53 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 20:53 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 20:53 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 20:53 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 20:53 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 20:53 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 20:53 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 20:53 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 20:53 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 20:53 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 20:53 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:18 - INFO - New file received : example.txt
+2024-12-23 21:18 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:18 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 21:18 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 21:18 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 21:18 - INFO - New node added : h(Integer integer)
+2024-12-23 21:18 - INFO - New node added : h(Quam senectus)
+2024-12-23 21:18 - INFO - New node added : h(Suspendisse)
+2024-12-23 21:18 - INFO - New node added : h(Placerat)
+2024-12-23 21:18 - INFO - New node added : h(Sed convallis)
+2024-12-23 21:18 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 21:18 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 21:18 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 21:18 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 21:18 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 21:18 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 21:18 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 21:18 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:18 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:18 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:18 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 21:18 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:19 - INFO - New file received : example.txt
+2024-12-23 21:19 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:19 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 21:19 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 21:19 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 21:19 - INFO - New node added : h(Integer integer)
+2024-12-23 21:19 - INFO - New node added : h(Quam senectus)
+2024-12-23 21:19 - INFO - New node added : h(Suspendisse)
+2024-12-23 21:19 - INFO - New node added : h(Placerat)
+2024-12-23 21:19 - INFO - New node added : h(Sed convallis)
+2024-12-23 21:19 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 21:19 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 21:19 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 21:19 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 21:19 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 21:19 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 21:19 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 21:19 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:19 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:19 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:19 - INFO - Gen Path called for Merkle Tree with index: 1
+2024-12-23 21:19 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:35 - INFO - New file received : example.txt
+2024-12-23 21:35 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:35 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 21:35 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 21:35 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 21:35 - INFO - New node added : h(Integer integer)
+2024-12-23 21:35 - INFO - New node added : h(Quam senectus)
+2024-12-23 21:35 - INFO - New node added : h(Suspendisse)
+2024-12-23 21:35 - INFO - New node added : h(Placerat)
+2024-12-23 21:35 - INFO - New node added : h(Sed convallis)
+2024-12-23 21:35 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 21:35 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 21:35 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 21:35 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 21:35 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 21:35 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 21:35 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 21:35 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:35 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:35 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:35 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:35 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:46 - INFO - New file received : example.txt
+2024-12-23 21:46 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:46 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 21:46 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 21:46 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 21:46 - INFO - New node added : h(Integer integer)
+2024-12-23 21:46 - INFO - New node added : h(Quam senectus)
+2024-12-23 21:46 - INFO - New node added : h(Suspendisse)
+2024-12-23 21:46 - INFO - New node added : h(Placerat)
+2024-12-23 21:46 - INFO - New node added : h(Sed convallis)
+2024-12-23 21:46 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 21:46 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 21:46 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 21:46 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 21:46 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 21:46 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 21:46 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 21:46 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:46 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:46 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:46 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:46 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:46 - INFO - New file received : example.txt
+2024-12-23 21:46 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:46 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 21:46 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 21:46 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 21:46 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 21:46 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 21:46 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 21:46 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 21:46 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 21:46 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 21:46 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 21:46 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 21:46 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 21:46 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 21:46 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 21:46 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 21:46 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:46 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:46 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:46 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:46 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:47 - INFO - New file received : example.txt
+2024-12-23 21:47 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:47 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 21:47 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 21:47 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 21:47 - INFO - New node added : h(Integer integer)
+2024-12-23 21:47 - INFO - New node added : h(Quam senectus)
+2024-12-23 21:47 - INFO - New node added : h(Suspendisse)
+2024-12-23 21:47 - INFO - New node added : h(Placerat)
+2024-12-23 21:47 - INFO - New node added : h(Sed convallis)
+2024-12-23 21:47 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 21:47 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 21:47 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 21:47 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 21:47 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 21:47 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 21:47 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 21:47 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:47 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:47 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:47 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:47 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:48 - INFO - New file received : example.txt
+2024-12-23 21:48 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:48 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 21:48 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 21:48 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 21:48 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 21:48 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 21:48 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 21:48 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 21:48 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 21:48 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 21:48 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 21:48 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 21:48 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 21:48 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 21:48 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 21:48 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 21:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:48 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:48 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:48 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:48 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:54 - INFO - New file received : example.txt
+2024-12-23 21:54 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:54 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 21:54 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 21:54 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 21:54 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 21:54 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 21:54 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 21:54 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 21:54 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 21:54 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 21:54 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 21:54 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 21:54 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 21:54 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 21:54 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 21:54 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 21:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:54 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:54 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:54 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:55 - INFO - New file received : example.txt
+2024-12-23 21:55 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:55 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 21:55 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 21:55 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 21:55 - INFO - New node added : h(Integer integer)
+2024-12-23 21:55 - INFO - New node added : h(Quam senectus)
+2024-12-23 21:55 - INFO - New node added : h(Suspendisse)
+2024-12-23 21:55 - INFO - New node added : h(Placerat)
+2024-12-23 21:55 - INFO - New node added : h(Sed convallis)
+2024-12-23 21:55 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 21:55 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 21:55 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 21:55 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 21:55 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 21:55 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 21:55 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 21:55 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:55 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:55 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:55 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:55 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:56 - INFO - New file received : example.txt
+2024-12-23 21:56 - INFO - Creation of a new Merkle Tree
+2024-12-23 21:56 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 21:56 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 21:56 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 21:56 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 21:56 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 21:56 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 21:56 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 21:56 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 21:56 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 21:56 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 21:56 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 21:56 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 21:56 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 21:56 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 21:56 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 21:56 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 21:56 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 21:56 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 21:56 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 21:56 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:03 - INFO - New file received : example.txt
+2024-12-23 22:03 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:03 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 22:03 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 22:03 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 22:03 - INFO - New node added : h(Integer integer)
+2024-12-23 22:03 - INFO - New node added : h(Quam senectus)
+2024-12-23 22:03 - INFO - New node added : h(Suspendisse)
+2024-12-23 22:03 - INFO - New node added : h(Placerat)
+2024-12-23 22:03 - INFO - New node added : h(Sed convallis)
+2024-12-23 22:03 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 22:03 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 22:03 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 22:03 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 22:03 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 22:03 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 22:03 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 22:03 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:03 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:03 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:03 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:03 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:10 - INFO - New file received : example.txt
+2024-12-23 22:10 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:10 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 22:10 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 22:10 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 22:10 - INFO - New node added : h(Integer integer)
+2024-12-23 22:10 - INFO - New node added : h(Quam senectus)
+2024-12-23 22:10 - INFO - New node added : h(Suspendisse)
+2024-12-23 22:10 - INFO - New node added : h(Placerat)
+2024-12-23 22:10 - INFO - New node added : h(Sed convallis)
+2024-12-23 22:10 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 22:10 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 22:10 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 22:10 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 22:10 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 22:10 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 22:10 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 22:10 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:10 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:10 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:10 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:13 - INFO - New file received : example.txt
+2024-12-23 22:13 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:13 - INFO - New node added : h(1)
+2024-12-23 22:13 - INFO - New node added : h(2)
+2024-12-23 22:13 - INFO - New node added : h(3)
+2024-12-23 22:13 - INFO - New node added : h(4)
+2024-12-23 22:13 - INFO - New node added : h(5)
+2024-12-23 22:13 - INFO - New node added : h(6)
+2024-12-23 22:13 - INFO - New node added : h(7)
+2024-12-23 22:13 - INFO - New node added : h(8)
+2024-12-23 22:13 - INFO - New node added : h(h(1)h(2))
+2024-12-23 22:13 - INFO - New node added : h(h(3)h(4))
+2024-12-23 22:13 - INFO - New node added : h(h(5)h(6))
+2024-12-23 22:13 - INFO - New node added : h(h(7)h(8))
+2024-12-23 22:13 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 22:13 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 22:13 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 22:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:13 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:13 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:13 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:13 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - New file received : example.txt
+2024-12-23 22:14 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:14 - INFO - New node added : h(1)
+2024-12-23 22:14 - INFO - New node added : h(2)
+2024-12-23 22:14 - INFO - New node added : h(3)
+2024-12-23 22:14 - INFO - New node added : h(4)
+2024-12-23 22:14 - INFO - New node added : h(5)
+2024-12-23 22:14 - INFO - New node added : h(6)
+2024-12-23 22:14 - INFO - New node added : h(7)
+2024-12-23 22:14 - INFO - New node added : h(8)
+2024-12-23 22:14 - INFO - New node added : h(h(1)h(2))
+2024-12-23 22:14 - INFO - New node added : h(h(3)h(4))
+2024-12-23 22:14 - INFO - New node added : h(h(5)h(6))
+2024-12-23 22:14 - INFO - New node added : h(h(7)h(8))
+2024-12-23 22:14 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 22:14 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 22:14 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:14 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - New file received : example.txt
+2024-12-23 22:14 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:14 - INFO - New node added : h(1)
+2024-12-23 22:14 - INFO - New node added : h(2)
+2024-12-23 22:14 - INFO - New node added : h(3)
+2024-12-23 22:14 - INFO - New node added : h(4)
+2024-12-23 22:14 - INFO - New node added : h(5)
+2024-12-23 22:14 - INFO - New node added : h(6)
+2024-12-23 22:14 - INFO - New node added : h(7)
+2024-12-23 22:14 - INFO - New node added : h(8)
+2024-12-23 22:14 - INFO - New node added : h(h(1)h(2))
+2024-12-23 22:14 - INFO - New node added : h(h(3)h(4))
+2024-12-23 22:14 - INFO - New node added : h(h(5)h(6))
+2024-12-23 22:14 - INFO - New node added : h(h(7)h(8))
+2024-12-23 22:14 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-23 22:14 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-23 22:14 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:14 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - New file received : example.txt
+2024-12-23 22:14 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:14 - INFO - New node added : h(Lorem ipsum odor)
+2024-12-23 22:14 - INFO - New node added : h(Aliquet cursus)
+2024-12-23 22:14 - INFO - New node added : h(Morbi efficitur)
+2024-12-23 22:14 - INFO - New node added : h(Integer integer)
+2024-12-23 22:14 - INFO - New node added : h(Quam senectus)
+2024-12-23 22:14 - INFO - New node added : h(Suspendisse)
+2024-12-23 22:14 - INFO - New node added : h(Placerat)
+2024-12-23 22:14 - INFO - New node added : h(Sed convallis)
+2024-12-23 22:14 - INFO - New node added : h(h(Lorem ipsum odor)h(Aliquet cursus))
+2024-12-23 22:14 - INFO - New node added : h(h(Morbi efficitur)h(Integer integer))
+2024-12-23 22:14 - INFO - New node added : h(h(Quam senectus)h(Suspendisse))
+2024-12-23 22:14 - INFO - New node added : h(h(Placerat)h(Sed convallis))
+2024-12-23 22:14 - INFO - New node added : h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))
+2024-12-23 22:14 - INFO - New node added : h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis)))
+2024-12-23 22:14 - INFO - New node added : h(h(h(h(Lorem ipsum odor)h(Aliquet cursus))h(h(Morbi efficitur)h(Integer integer)))h(h(h(Quam senectus)h(Suspendisse))h(h(Placerat)h(Sed convallis))))
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:14 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - New file received : example.txt
+2024-12-23 22:14 - INFO - Creation of a new Merkle Tree
+2024-12-23 22:14 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 22:14 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 22:14 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 22:14 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 22:14 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 22:14 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 22:14 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 22:14 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 22:14 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 22:14 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 22:14 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 22:14 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 22:14 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 22:14 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 22:14 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 22:14 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 22:14 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 22:14 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:27 - INFO - New file received : example.txt
+2024-12-23 23:27 - INFO - Creation of a new Merkle Tree
+2024-12-23 23:27 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 23:27 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 23:27 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 23:27 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 23:27 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 23:27 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 23:27 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 23:27 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 23:27 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 23:27 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 23:27 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 23:27 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 23:27 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 23:27 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 23:27 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 23:27 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:27 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 23:27 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 23:27 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 23:27 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:27 - INFO - The value Aliquet cursus is  the event that match the given audit path
+2024-12-23 23:29 - INFO - New file received : example.txt
+2024-12-23 23:29 - INFO - Creation of a new Merkle Tree
+2024-12-23 23:29 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 23:29 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 23:29 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 23:29 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 23:29 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 23:29 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 23:29 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 23:29 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 23:29 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 23:29 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 23:29 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 23:29 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 23:29 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 23:29 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 23:29 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 23:29 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:29 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 23:29 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 23:29 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 23:29 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:29 - INFO - The value "Aliquet cursus" is  the event that match the given audit path
+2024-12-23 23:29 - INFO - New file received : example.txt
+2024-12-23 23:29 - INFO - Creation of a new Merkle Tree
+2024-12-23 23:29 - INFO - New node added : b5bedb83aa937079b0793d06171b770a64d38275d13cde99fef9cd6dd863f911
+2024-12-23 23:29 - INFO - New node added : 411beb538c19a0ac5d0049b3b9c011d56b99930c3e08297b78ec9c19cb6b0908
+2024-12-23 23:29 - INFO - New node added : 81c5369bfc5ec95f31ce58f844528f620a33e9bb4e4b17c46c2534d504b7909c
+2024-12-23 23:29 - INFO - New node added : 5d87ef2e4832bf4c296050ea42bb69e692f31dfdb5f54066099d7310be089055
+2024-12-23 23:29 - INFO - New node added : c5865d3ca0e001b4bf8837e5f7e1e4cf4ee7f0bcf4fa8a710a57ccb5234a0881
+2024-12-23 23:29 - INFO - New node added : 2d19f2a36ccaba9614078e2cbaa1804d053a40909b43d6416b0e72fc77e75a6b
+2024-12-23 23:29 - INFO - New node added : bf2eacd700eeb5f5b765d3314208416009902bd7103bce670112dc410059b886
+2024-12-23 23:29 - INFO - New node added : b282f30a72a3239b72338d0b0a29ed1d1abf294086384baca977a15467c11abd
+2024-12-23 23:29 - INFO - New node added : 08d03af567b8c93b977d6e653583ed683cd3f63a7b70ea71becdf2dd1467013b
+2024-12-23 23:29 - INFO - New node added : 146be71bbfb164452e335cc1b47bc5d171ae2778aabe2a0580d262f514d4cd20
+2024-12-23 23:29 - INFO - New node added : 264d53aee3baeba45e7ee0be1e7577779c9e74d2917f21ad8508a6e77e597af4
+2024-12-23 23:29 - INFO - New node added : d8bf58e8873531152ceca1ebab186dc60f5bb555a74166f7f1286e923f410bf4
+2024-12-23 23:29 - INFO - New node added : 9e104250301c36183c45a85eaf2a89fbb5d19a0661a539a54b7da7fdd8bc8946
+2024-12-23 23:29 - INFO - New node added : 7a8c622d1d239e6da4b014aaa2da5a1ed6f5a1d3695b33985a67754b82578896
+2024-12-23 23:29 - INFO - New node added : 654832252efbe644a33aa65add9f0f6eb3985cd5e4abc1fc3b984105898d7fbe
+2024-12-23 23:29 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:29 - INFO - Gen Path called for Merkle Tree with index: 7
+2024-12-23 23:29 - INFO - Gen Proof called for Merkle Tree: index=7, n=4
+2024-12-23 23:29 - INFO - Gen Path called for Merkle Tree with index: 2
+2024-12-23 23:29 - INFO - Root Hash asked for Merkle Tree
+2024-12-23 23:29 - INFO - The value "Aliquet5 cursus" is not the event that match the given audit path
+2024-12-24 00:01 - INFO - New file received : example.txt
+2024-12-24 00:01 - INFO - Creation of a new Merkle Tree
+2024-12-24 00:01 - INFO - New node added : 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b
+2024-12-24 00:01 - INFO - New node added : d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35
+2024-12-24 00:01 - INFO - New node added : 4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce
+2024-12-24 00:01 - INFO - New node added : 4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a
+2024-12-24 00:01 - INFO - New node added : ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d
+2024-12-24 00:01 - INFO - New node added : e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683
+2024-12-24 00:01 - INFO - New node added : 7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451
+2024-12-24 00:01 - INFO - New node added : 2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3
+2024-12-24 00:01 - INFO - New node added : 33b675636da5dcc86ec847b38c08fa49ff1cace9749931e0a5d4dfdbdedd808a
+2024-12-24 00:01 - INFO - New node added : 13656c83d841ea7de6ebf3a89e0038fea9526bd7f686f06f7a692343a8a32dca
+2024-12-24 00:01 - INFO - New node added : 43587f59c00a8e528bc7636fabaffcf70cc25afc5b4d53df797faf0dc72f6dd0
+2024-12-24 00:01 - INFO - New node added : ada17dcc2d615cc0d982a538b618f45441e798c38b1df9f3dd273e386eba1363
+2024-12-24 00:01 - INFO - New node added : 85df8945419d2b5038f7ac83ec1ec6b8267c40fdb3b1e56ff62f6676eb855e70
+2024-12-24 00:01 - INFO - New node added : e0e2d0cec0ef7e8fc458e516dfde82890c183431a3f9efae9e4693fc23dfa36a
+2024-12-24 00:01 - INFO - New node added : c27450cd3fd4df029145f3437ae9c381e0ae55e8400de06cb973005b36d7b222
+2024-12-24 00:01 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:01 - INFO - Full Merkle Tree scheme asked
+2024-12-24 00:02 - INFO - New file received : example.txt
+2024-12-24 00:02 - INFO - Creation of a new Merkle Tree
+2024-12-24 00:02 - INFO - New node added : h(1)
+2024-12-24 00:02 - INFO - New node added : h(2)
+2024-12-24 00:02 - INFO - New node added : h(3)
+2024-12-24 00:02 - INFO - New node added : h(4)
+2024-12-24 00:02 - INFO - New node added : h(5)
+2024-12-24 00:02 - INFO - New node added : h(6)
+2024-12-24 00:02 - INFO - New node added : h(7)
+2024-12-24 00:02 - INFO - New node added : h(8)
+2024-12-24 00:02 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:02 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:02 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:02 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:02 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:02 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:02 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:02 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:02 - INFO - Full Merkle Tree scheme asked
+2024-12-24 00:02 - INFO - New file received : example.txt
+2024-12-24 00:02 - INFO - Creation of a new Merkle Tree
+2024-12-24 00:02 - INFO - New node added : h(1)
+2024-12-24 00:02 - INFO - New node added : h(2)
+2024-12-24 00:02 - INFO - New node added : h(3)
+2024-12-24 00:02 - INFO - New node added : h(4)
+2024-12-24 00:02 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:02 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:02 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:02 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:02 - INFO - Full Merkle Tree scheme asked
+2024-12-24 00:34 - INFO - New file received : example.txt
+2024-12-24 00:34 - INFO - Creation of a new Merkle Tree
+2024-12-24 00:34 - INFO - New node added : h(1)
+2024-12-24 00:34 - INFO - New node added : h(2)
+2024-12-24 00:34 - INFO - New node added : h(3)
+2024-12-24 00:34 - INFO - New node added : h(4)
+2024-12-24 00:34 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:34 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:34 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:34 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:34 - INFO - Adding new value to Merkle Tree: 5
+2024-12-24 00:34 - INFO - New node added : h(1)
+2024-12-24 00:34 - INFO - New node added : h(2)
+2024-12-24 00:34 - INFO - New node added : h(3)
+2024-12-24 00:34 - INFO - New node added : h(4)
+2024-12-24 00:34 - INFO - New node added : h(5)
+2024-12-24 00:34 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:34 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:34 - INFO - New node added : h(h(5))
+2024-12-24 00:34 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(5)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5))))
+2024-12-24 00:34 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:34 - INFO - Adding new value to Merkle Tree: 6
+2024-12-24 00:34 - INFO - New node added : h(1)
+2024-12-24 00:34 - INFO - New node added : h(2)
+2024-12-24 00:34 - INFO - New node added : h(3)
+2024-12-24 00:34 - INFO - New node added : h(4)
+2024-12-24 00:34 - INFO - New node added : h(5)
+2024-12-24 00:34 - INFO - New node added : h(6)
+2024-12-24 00:34 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:34 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:34 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:34 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-24 00:34 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:34 - INFO - Adding new value to Merkle Tree: 7 | 8
+2024-12-24 00:34 - INFO - Adding new value to Merkle Tree: 7
+2024-12-24 00:34 - INFO - New node added : h(1)
+2024-12-24 00:34 - INFO - New node added : h(2)
+2024-12-24 00:34 - INFO - New node added : h(3)
+2024-12-24 00:34 - INFO - New node added : h(4)
+2024-12-24 00:34 - INFO - New node added : h(5)
+2024-12-24 00:34 - INFO - New node added : h(6)
+2024-12-24 00:34 - INFO - New node added : h(7)
+2024-12-24 00:34 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:34 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:34 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:34 - INFO - New node added : h(h(7))
+2024-12-24 00:34 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(5)h(6))h(h(7)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7))))
+2024-12-24 00:34 - INFO - Adding new value to Merkle Tree: 8
+2024-12-24 00:34 - INFO - New node added : h(1)
+2024-12-24 00:34 - INFO - New node added : h(2)
+2024-12-24 00:34 - INFO - New node added : h(3)
+2024-12-24 00:34 - INFO - New node added : h(4)
+2024-12-24 00:34 - INFO - New node added : h(5)
+2024-12-24 00:34 - INFO - New node added : h(6)
+2024-12-24 00:34 - INFO - New node added : h(7)
+2024-12-24 00:34 - INFO - New node added : h(8)
+2024-12-24 00:34 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:34 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:34 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:34 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:34 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:34 - INFO - New node added : h(1)
+2024-12-24 00:34 - INFO - New node added : h(2)
+2024-12-24 00:34 - INFO - New node added : h(3)
+2024-12-24 00:34 - INFO - New node added : h(4)
+2024-12-24 00:34 - INFO - New node added : h(5)
+2024-12-24 00:34 - INFO - New node added : h(6)
+2024-12-24 00:34 - INFO - New node added : h(7)
+2024-12-24 00:34 - INFO - New node added : h(8)
+2024-12-24 00:34 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:34 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:34 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:34 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:34 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:34 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:34 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:40 - INFO - New file received : example.txt
+2024-12-24 00:40 - INFO - Creation of a new Merkle Tree
+2024-12-24 00:40 - INFO - New node added : h(1)
+2024-12-24 00:40 - INFO - New node added : h(2)
+2024-12-24 00:40 - INFO - New node added : h(3)
+2024-12-24 00:40 - INFO - New node added : h(4)
+2024-12-24 00:40 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:40 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:40 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:40 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:40 - INFO - Adding new value to Merkle Tree: 5
+2024-12-24 00:40 - INFO - New node added : h(1)
+2024-12-24 00:40 - INFO - New node added : h(2)
+2024-12-24 00:40 - INFO - New node added : h(3)
+2024-12-24 00:40 - INFO - New node added : h(4)
+2024-12-24 00:40 - INFO - New node added : h(5)
+2024-12-24 00:40 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:40 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:40 - INFO - New node added : h(h(5))
+2024-12-24 00:40 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(5)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5))))
+2024-12-24 00:40 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:40 - INFO - Adding new value to Merkle Tree: 6
+2024-12-24 00:40 - INFO - New node added : h(1)
+2024-12-24 00:40 - INFO - New node added : h(2)
+2024-12-24 00:40 - INFO - New node added : h(3)
+2024-12-24 00:40 - INFO - New node added : h(4)
+2024-12-24 00:40 - INFO - New node added : h(5)
+2024-12-24 00:40 - INFO - New node added : h(6)
+2024-12-24 00:40 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:40 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:40 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:40 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-24 00:40 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:40 - INFO - Adding new value to Merkle Tree: 7 | 8
+2024-12-24 00:40 - INFO - Adding new value to Merkle Tree: 7
+2024-12-24 00:40 - INFO - New node added : h(1)
+2024-12-24 00:40 - INFO - New node added : h(2)
+2024-12-24 00:40 - INFO - New node added : h(3)
+2024-12-24 00:40 - INFO - New node added : h(4)
+2024-12-24 00:40 - INFO - New node added : h(5)
+2024-12-24 00:40 - INFO - New node added : h(6)
+2024-12-24 00:40 - INFO - New node added : h(7)
+2024-12-24 00:40 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:40 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:40 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:40 - INFO - New node added : h(h(7))
+2024-12-24 00:40 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(5)h(6))h(h(7)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7))))
+2024-12-24 00:40 - INFO - Adding new value to Merkle Tree: 8
+2024-12-24 00:40 - INFO - New node added : h(1)
+2024-12-24 00:40 - INFO - New node added : h(2)
+2024-12-24 00:40 - INFO - New node added : h(3)
+2024-12-24 00:40 - INFO - New node added : h(4)
+2024-12-24 00:40 - INFO - New node added : h(5)
+2024-12-24 00:40 - INFO - New node added : h(6)
+2024-12-24 00:40 - INFO - New node added : h(7)
+2024-12-24 00:40 - INFO - New node added : h(8)
+2024-12-24 00:40 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:40 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:40 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:40 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:40 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:40 - INFO - New node added : h(1)
+2024-12-24 00:40 - INFO - New node added : h(2)
+2024-12-24 00:40 - INFO - New node added : h(3)
+2024-12-24 00:40 - INFO - New node added : h(4)
+2024-12-24 00:40 - INFO - New node added : h(5)
+2024-12-24 00:40 - INFO - New node added : h(6)
+2024-12-24 00:40 - INFO - New node added : h(7)
+2024-12-24 00:40 - INFO - New node added : h(8)
+2024-12-24 00:40 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:40 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:40 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:40 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:40 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:40 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:40 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:40 - INFO - Gen Path called for Merkle Tree with index: 4
+2024-12-24 00:40 - INFO - Gen Proof called for Merkle Tree: index=6, n=4
+2024-12-24 00:54 - INFO - New file received : example.txt
+2024-12-24 00:54 - INFO - Creation of a new Merkle Tree
+2024-12-24 00:54 - INFO - New node added : h(1)
+2024-12-24 00:54 - INFO - New node added : h(2)
+2024-12-24 00:54 - INFO - New node added : h(3)
+2024-12-24 00:54 - INFO - New node added : h(4)
+2024-12-24 00:54 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:54 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:54 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:54 - INFO - Adding new value to Merkle Tree: 5
+2024-12-24 00:54 - INFO - New node added : h(1)
+2024-12-24 00:54 - INFO - New node added : h(2)
+2024-12-24 00:54 - INFO - New node added : h(3)
+2024-12-24 00:54 - INFO - New node added : h(4)
+2024-12-24 00:54 - INFO - New node added : h(5)
+2024-12-24 00:54 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:54 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:54 - INFO - New node added : h(h(5))
+2024-12-24 00:54 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(5)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5))))
+2024-12-24 00:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:54 - INFO - Adding new value to Merkle Tree: 6
+2024-12-24 00:54 - INFO - New node added : h(1)
+2024-12-24 00:54 - INFO - New node added : h(2)
+2024-12-24 00:54 - INFO - New node added : h(3)
+2024-12-24 00:54 - INFO - New node added : h(4)
+2024-12-24 00:54 - INFO - New node added : h(5)
+2024-12-24 00:54 - INFO - New node added : h(6)
+2024-12-24 00:54 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:54 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:54 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:54 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(5)h(6)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))))
+2024-12-24 00:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:54 - INFO - Adding new value to Merkle Tree: 7 | 8
+2024-12-24 00:54 - INFO - Adding new value to Merkle Tree: 7
+2024-12-24 00:54 - INFO - New node added : h(1)
+2024-12-24 00:54 - INFO - New node added : h(2)
+2024-12-24 00:54 - INFO - New node added : h(3)
+2024-12-24 00:54 - INFO - New node added : h(4)
+2024-12-24 00:54 - INFO - New node added : h(5)
+2024-12-24 00:54 - INFO - New node added : h(6)
+2024-12-24 00:54 - INFO - New node added : h(7)
+2024-12-24 00:54 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:54 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:54 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:54 - INFO - New node added : h(h(7))
+2024-12-24 00:54 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(5)h(6))h(h(7)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7))))
+2024-12-24 00:54 - INFO - Adding new value to Merkle Tree: 8
+2024-12-24 00:54 - INFO - New node added : h(1)
+2024-12-24 00:54 - INFO - New node added : h(2)
+2024-12-24 00:54 - INFO - New node added : h(3)
+2024-12-24 00:54 - INFO - New node added : h(4)
+2024-12-24 00:54 - INFO - New node added : h(5)
+2024-12-24 00:54 - INFO - New node added : h(6)
+2024-12-24 00:54 - INFO - New node added : h(7)
+2024-12-24 00:54 - INFO - New node added : h(8)
+2024-12-24 00:54 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:54 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:54 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:54 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:54 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:54 - INFO - New node added : h(1)
+2024-12-24 00:54 - INFO - New node added : h(2)
+2024-12-24 00:54 - INFO - New node added : h(3)
+2024-12-24 00:54 - INFO - New node added : h(4)
+2024-12-24 00:54 - INFO - New node added : h(5)
+2024-12-24 00:54 - INFO - New node added : h(6)
+2024-12-24 00:54 - INFO - New node added : h(7)
+2024-12-24 00:54 - INFO - New node added : h(8)
+2024-12-24 00:54 - INFO - New node added : h(h(1)h(2))
+2024-12-24 00:54 - INFO - New node added : h(h(3)h(4))
+2024-12-24 00:54 - INFO - New node added : h(h(5)h(6))
+2024-12-24 00:54 - INFO - New node added : h(h(7)h(8))
+2024-12-24 00:54 - INFO - New node added : h(h(h(1)h(2))h(h(3)h(4)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(5)h(6))h(h(7)h(8)))
+2024-12-24 00:54 - INFO - New node added : h(h(h(h(1)h(2))h(h(3)h(4)))h(h(h(5)h(6))h(h(7)h(8))))
+2024-12-24 00:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:54 - INFO - Gen Path called for Merkle Tree with index: 4
+2024-12-24 00:54 - INFO - Gen Proof called for Merkle Tree: index=6, n=4
+2024-12-24 00:54 - INFO - Gen Path called for Merkle Tree with index: 5
+2024-12-24 00:54 - INFO - Root Hash asked for Merkle Tree
+2024-12-24 00:54 - INFO - The value "5" is  the event that match the given audit path
