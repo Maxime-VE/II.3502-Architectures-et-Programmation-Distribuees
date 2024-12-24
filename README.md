@@ -43,25 +43,25 @@ Si vous êtes sur MacOS ou Linux, utilisez cette commande pour activer l`environ
 
 ```bash
 source venv/bin/activate
+
 ```
 
 ---
 
 ## Lancer le programme
 
-Dans un environnement munis de spark et dans le dossier Python du projet, Lancer le serveur Spark avec la commande: 
-```bash
-spark-submit main_spark.py
-```
-Après son lancement, vous pouvez visualiser son état d'avancement directement depuis la page de gestion Spark disponible à l'adresse: 
-```bash
-localhost:4040
-```
----
-## Fichier de sortie
+### Quick One File Testing:
+An all-in-one file (`main.py`) is available to quickly test all functionalities, including adding a single node, adding a list of nodes, retrieving the root hash, obtaining the audit path, getting the consistency proof path, and performing `is_member` verification. (Line 161)
 
-Les fichiers générés par le serveur sont disponible dans le dossier  `SparkOutput`au format .csv. Une application externe
-comme `Excel` peut rendre la lecture plus simple
+The input logs are provided in the `example.txt` file and can be modified manually as needed.
+
+### Distributed Deployment:
+The RPC system is located in the `RPC` folder and contains `merkle_server.py` and `merkle_client.py`. These files can be executed in the terminal to test the solution.
+
+### Change the Hash Method:
+To make it easier to check the implemented method, the hash function can be changed to `"h(value)"`. Simply uncomment the following code lines:
+- Line 25 in `main.py`
+- Line 15 in `RPC/merkle_tree.py`
 
 ---
 

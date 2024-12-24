@@ -2,16 +2,6 @@ import math
 import hashlib
 import logging
 
-logging.basicConfig(
-    level=logging.INFO,
-    filename="merkletree.log",
-    encoding="utf-8",
-    filemode="a",
-    format="{asctime} - {levelname} - {message}",
-    style="{",
-    datefmt="%Y-%m-%d %H:%M",
-)
-
 class Node:
     def __init__(self, left, right, value: str, content):
         self.left: Node = left
@@ -93,7 +83,7 @@ class MerkleTree:
         logging.info(f"Adding new value to Merkle Tree: {value}")
         self.values.append(value)
         self.size = self.compute_size()
-        self.build_tree(self.values)
+        self.build_tree(self.values)  # Rebuild the tree
 
     def add_node_list(self, values):
         new_nodes = ' | '.join(values)
@@ -101,7 +91,7 @@ class MerkleTree:
         for event in values:
             self.add_node(event)
         self.size = self.compute_size()
-        self.build_tree(self.values)
+        self.build_tree(self.values)  # Rebuild the tree
 
     def gen_path(self, index):
         path = []
@@ -156,34 +146,3 @@ class MerkleTree:
         result = event_hash == self.get_root_value()
         logging.info(f"The value \"{event_value}\" is {'' if result else 'not'} the event that match the given audit path")
         return result
-
-
-def test_merkle_functions(data_into_list):
-    print("Inputs: ")
-    print(*element_list, sep=" | ")
-    print("")
-    mtree = MerkleTree(element_list)    # Create the tree with the input file (example.txt)
-    print("Root Hash: " + mtree.get_root_value() + "\n")    #Get RootHash
-    mtree.print_tree()  # /!\ print ALL THE NODE OF THEE MERKLETREE, please avoid to enable for too heavy Tree
-    mtree.add_node('5') # Add Node method
-    print("Root Hash: "+mtree.get_root_value()+"\n") # Print Root Hash to check if previous method worked fine
-    mtree.add_node_list(['6', '7', '8'])
-    print("Root Hash: "+mtree.get_root_value()+"\n") # Print Root Hash to check if previous method worked fine
-    print(f"Size Tree: {mtree.size}")   # Print Tree size
-    print(f"Gen path: {mtree.gen_path(4)}")   # Print Audit Path for an index
-    print(f"Gen proof: {mtree.gen_proof(6)}")   # Print Consitency Path for an index
-
-    audit_path = mtree.gen_path(5)
-    test_event = "5"
-    result = mtree.is_member(test_event, audit_path)    # Test is_member() that check if a value is the right event with the given audit path
-    print(f"The value \"{test_event}\" is {'' if result else 'not'} the event that match the given audit path")
-
-
-
-filename = "example.txt"
-
-with open(filename, 'r') as fichier:
-    lignes = fichier.readlines()
-element_list = [ligne.strip() for ligne in lignes]
-logging.info(f"New file received : {filename}")
-test_merkle_functions(element_list)
